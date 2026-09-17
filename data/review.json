@@ -1,0 +1,1218 @@
+{
+  "reviewed": "2026-09-17",
+  "method": "Reconciliation to published records, not an independent survey or certification of present-day operations.",
+  "profileFacts": {
+    "count": 306,
+    "source": "lla-2024",
+    "method": "All values reconciled against their cited pages in a freshly downloaded PDF. One supported rail paraphrase was replaced with closer source wording. The report describes historical, unaudited self-reported data."
+  },
+  "locations": {
+    "freshFederalGeometryMatches": 20,
+    "otherReferencePoints": 12,
+    "method": "20 dock coordinates compared with freshly retrieved USACE geometries to 0.000001 degree. Other points retain their original address, map or project references; their physical positions were not field surveyed."
+  },
+  "links": [
+    {
+      "id": "lla-2024",
+      "url": "https://app.lla.la.gov/publicreports.nsf/0/8821f5584897978386258ab50064a7f9/%24file/00003bbab.pdf",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://app.lla.la.gov/publicreports.nsf/0/8821f5584897978386258ab50064a7f9/%24file/00003bbab.pdf",
+      "contentType": "application/pdf",
+      "sha256": "024c68f20527f39d13564222013bd2b54dfa1b59cf4e7225c115b07ea05e348a",
+      "bytes": 15162559
+    },
+    {
+      "id": "usace-cargo-2023",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/ArcGIS/rest/services/Principal_Ports/FeatureServer/0",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/ArcGIS/rest/services/Principal_Ports/FeatureServer/0",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "990ea6e6298547610254df023a7077b0f4c1da55e560b29f7d4c4f5a5869d914",
+      "bytes": 7107,
+      "title": "Layer: Principal_Ports (ID:0)"
+    },
+    {
+      "id": "usace-areas",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Port_Statistical_Area/FeatureServer/0",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Port_Statistical_Area/FeatureServer/0",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "8c10ae296bed236d21d8593cbeb205c467ac5c8ad044111ca5e2176fbbb8257b",
+      "bytes": 9890,
+      "title": "Layer: Ports (ID:0)"
+    },
+    {
+      "id": "usace-docks",
+      "url": "https://geospatial-usace.opendata.arcgis.com/datasets/23d91bd988ac4fc9943128965bddfa37_0/explore",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://geospatial-usace.opendata.arcgis.com/datasets/23d91bd988ac4fc9943128965bddfa37_0/explore",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "540a5b8f62a402ca7fe2e3260424b401454f5e463bce35f383938288cb2772d6",
+      "bytes": 48192,
+      "title": "Navigation Facilities (Dock)"
+    },
+    {
+      "id": "dotd-roster",
+      "url": "https://dotd.la.gov/about/office-of-multimodal-commerce/ports-and-waterways/ports/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://dotd.la.gov/about/office-of-multimodal-commerce/ports-and-waterways/ports/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "e7820204ccae6b46dc7ad3febdb24e00ed89eaee83a18edcdda79c578b99f790",
+      "bytes": 90180,
+      "title": "Ports "
+    },
+    {
+      "id": "noaa-loop",
+      "url": "https://www.ndbc.noaa.gov/station_page.php?station=lopl1",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.ndbc.noaa.gov/station_page.php?station=lopl1",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "4b9aa669aa920066b83e29f7b7e1b61f4dd6a114507a9260bb0713b35b2b5abd",
+      "bytes": 22366,
+      "title": "NDBC - Station LOPL1 Recent Data"
+    },
+    {
+      "id": "usace-tensas",
+      "url": "https://www.mvk.usace.army.mil/Portals/58/docs/regulatory/publicnotices/Public%20Notice%20MVK-2024-397-Signed.pdf?ver=PBGfWYw4HqgJAI5nWa-new%3D%3D",
+      "checked": "2026-09-17",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "usace-vidalia",
+      "url": "https://www.mvk.usace.army.mil/Portals/58/docs/regulatory/publicnotices/Public%20Notice%20MVK-2008-1006%20-kwh.pdf?ver=P_9AsEmAdCafmHkyNQGjLw%3D%3D",
+      "checked": "2026-09-17",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "red-river-site",
+      "url": "https://louisianasiteselection.com/api/Upload/FileDownload?guid=ebb5086e967c43caa3d77c4d8d5a4e1e",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/api/Upload/FileDownload?guid=ebb5086e967c43caa3d77c4d8d5a4e1e",
+      "contentType": "application/pdf",
+      "sha256": "1c98f0a097448d8945a07bd2063c0b8b0f4d0fa1aae21177ccdde4f21433082d",
+      "bytes": 12376106
+    },
+    {
+      "id": "vinton-led",
+      "url": "https://images1.showcase.com/d2/6pvyUGIxZ8r9cQqdlurHCSBT8RLIuHacnMFXNT3RJxM/document.pdf",
+      "checked": "2026-09-17",
+      "error": "HTTP Error 403: Forbidden"
+    },
+    {
+      "id": "gateway-name",
+      "url": "https://www.louisianagatewayport.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.louisianagatewayport.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "00bb46922d27de8ae55c9dcc0dcb6ebeaf2fd86e080dd1adf08fc880e18c27eb",
+      "bytes": 105511,
+      "title": "Plaquemines Port Harbor and Terminal "
+    },
+    {
+      "id": "dock-0yvu",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270YVU%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270YVU%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "87e07813751cba9cce87154039ea4f5a3b45619929203cfd6d6b3071bdb122ee",
+      "bytes": 13916
+    },
+    {
+      "id": "dock-0spy",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SPY%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SPY%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "1b6de15a4178b56141060a3751069ac065ef7f1d168c3c3737487e47b60ffe1f",
+      "bytes": 14526
+    },
+    {
+      "id": "dock-0shr",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SHR%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SHR%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "defdcb15ddc51b3c5f2f85c195f432443ac2505b60bae156122ab15a051961ff",
+      "bytes": 13545
+    },
+    {
+      "id": "dock-0xa3",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XA3%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XA3%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "3b0091e8e06672410d247ccb033b336617a2b6cb68a2f4151a1d949c56fab596",
+      "bytes": 13371
+    },
+    {
+      "id": "dock-0u1z",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270U1Z%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270U1Z%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "f40c47c8940d0ec83e68cedb6ecb07a17783373b84d9d88fc754cb6c889988a2",
+      "bytes": 14686
+    },
+    {
+      "id": "dock-0sfy",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SFY%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SFY%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "b27cc390956319cf9d2abacef763c5553be3af26257f773b4c7a8e2644b6ea8d",
+      "bytes": 14668
+    },
+    {
+      "id": "dock-0x2v",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270X2V%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270X2V%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "822e7414d6aeab607d6950b3893eda01031ba6621d1fb7a80e930c5046e5d6d3",
+      "bytes": 15198
+    },
+    {
+      "id": "dock-0zw8",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZW8%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZW8%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "b6412353163a37dfe27bdb9ad5a67ed2392bb94ace3582c8cfdb285b442a7367",
+      "bytes": 13490
+    },
+    {
+      "id": "dock-0wmp",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270WMP%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270WMP%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "ec4f6d5f205bfa59558128a0fbbfd76d7f744a26bc5a3aa443dc2df3a33ce6c3",
+      "bytes": 13484
+    },
+    {
+      "id": "dock-0zne",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZNE%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZNE%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "4bd6ef82b7677aece61f563a9a94d441b116c3be01c3efa44cf474682fea8e12",
+      "bytes": 14347
+    },
+    {
+      "id": "dock-0zy1",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZY1%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZY1%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "f689434f8152ccff89d7d233379e3a58c28ba8b25164dfd47a5862ed678196ad",
+      "bytes": 13665
+    },
+    {
+      "id": "dock-0ynx",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270YNX%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270YNX%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "e278b1431c96f95871652618a86d1a1d0693c814da7f553501a1b0efc6fe3a2c",
+      "bytes": 13418
+    },
+    {
+      "id": "dock-0qeh",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270QEH%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270QEH%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "99cd0fe2920b18b1c2a6acaf848dfe91fb71f64496f05f1a65ef867d30114812",
+      "bytes": 13099
+    },
+    {
+      "id": "dock-0zdr",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZDR%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZDR%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "d691fd5f703bd1a0636e06fa4b919233a7946d9cb53df576c7a5f7a0e73e0e08",
+      "bytes": 14154
+    },
+    {
+      "id": "dock-0tcu",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270TCU%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270TCU%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "6b228fa1a1b9bf94aa1f6eb998b74ab0e2d8b078280181de8fd167ea2cc5b814",
+      "bytes": 14032
+    },
+    {
+      "id": "dock-0xb0",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XB0%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XB0%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "0696ab157b29239561ed54a28490582e0b9d70b0f8a75e53d330961390039f02",
+      "bytes": 15318
+    },
+    {
+      "id": "dock-0rlk",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270RLK%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270RLK%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "f7ff19c826a8f17fc3fe610d6062c1ac42c4883c5923fc1137ba64900e5b3644",
+      "bytes": 13023
+    },
+    {
+      "id": "dock-10q0",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%2710Q0%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%2710Q0%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "d3e9a72512d20ad58530665525b9f73728dcc29d447a8d84576610a79e2be4a4",
+      "bytes": 12852
+    },
+    {
+      "id": "dock-0te3",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270TE3%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270TE3%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "534f7d045e9a5802ae54e2dbf4101228190609864c07cabcc7af79214954dbec",
+      "bytes": 15291
+    },
+    {
+      "id": "dock-0xaf",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XAF%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XAF%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "contentType": "application/json; charset=utf-8",
+      "sha256": "45c5eae43b1149fadb8ed9d8ad4804d993d469f4041702127772a5c8182c2426",
+      "bytes": 14625
+    },
+    {
+      "id": "map-new-orleans",
+      "url": "https://portnola.com/info/directions",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portnola.com/info/directions",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "ff56585549c90dc4ac89e8aa9a6fa32607d46e8d4d302903ec895240eefeb564",
+      "bytes": 42985,
+      "title": "Directions | Port of New Orleans | Port NOLA"
+    },
+    {
+      "id": "map-delcambre",
+      "url": "https://portofdelcambre.com/contact-us/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portofdelcambre.com/contact-us/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "a3ea290c66cf131801cf091eb6234d5c1b545d63077615757bd3b89a2db0c784",
+      "bytes": 130771,
+      "title": "Contact Us | Port of Delcambre"
+    },
+    {
+      "id": "map-grand-isle",
+      "url": "https://grandisleport.com/contact-us/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://grandisleport.com/contact-us/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "652ec4a80402db243d375ab8572f2aa042744ea1aaec716b51290e0cb155a4ab",
+      "bytes": 126533,
+      "title": "Contact Us – Grand Isle Port Commission"
+    },
+    {
+      "id": "map-columbia",
+      "url": "https://www.portcolumbia.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.portcolumbia.com/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "8838c9e3de63255cdba81d90508042049760cd67a5cabce1111f73d9cdb38324",
+      "bytes": 25024,
+      "title": "Port Of Columbia"
+    },
+    {
+      "id": "map-krotz-springs",
+      "url": "https://portofkrotzsprings.com/contact-us/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portofkrotzsprings.com/contact-us/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "24eaeccfba503de4e5110aa4dcc95f6c384e07589e7e531d1b837c6c27894253",
+      "bytes": 68718,
+      "title": "Contact the Port of Krotz Springs | Centrally Located in Louisiana"
+    },
+    {
+      "id": "census-cameron",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=180+Henry+Street%2C+Cameron%2C+LA+70631&benchmark=Public_AR_Current&format=json",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=180+Henry+Street%2C+Cameron%2C+LA+70631&benchmark=Public_AR_Current&format=json",
+      "contentType": "application/json",
+      "sha256": "126ae2bdc0ced731d0bf030c3a0c312e2caee335183a8e660678097800a8d989",
+      "bytes": 639
+    },
+    {
+      "id": "census-ouachita",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=101+Valley+Road%2C+West+Monroe%2C+LA+71292&benchmark=Public_AR_Current&format=json",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=101+Valley+Road%2C+West+Monroe%2C+LA+71292&benchmark=Public_AR_Current&format=json",
+      "contentType": "application/json",
+      "sha256": "58e3784c1ce40f9738b07bcaa4df2dbac1e29929ea5d5f4c356841175934dca0",
+      "bytes": 652
+    },
+    {
+      "id": "energy-fourchon",
+      "url": "https://www.entergy.com/news/entergy-louisiana-eco-launch-shore-power-project-reduce-emissions-for-gulf-coast-1729408408",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.entergy.com/news/entergy-louisiana-eco-launch-shore-power-project-reduce-emissions-for-gulf-coast-1729408408",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "dd617b4fd2424cc54ba70c79ae487038266b0d6dec7a1fc5711fb3e8292a92a9",
+      "bytes": 121425,
+      "title": "Entergy Louisiana, ECO Launch Shore Power Project to Reduce Emissions for Gulf Coast - Entergy"
+    },
+    {
+      "id": "energy-lake-charles",
+      "url": "https://www.entergy.com/news/entergy-providing-power-crowley-vessels-at-port-lake-charles",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.entergy.com/news/entergy-providing-power-crowley-vessels-at-port-lake-charles",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "843a175fe10b96079cda3713e171ba5ac6301395da5d02a7b3f0a2d0f844e8c8",
+      "bytes": 117500,
+      "title": "Entergy providing power to Crowley vessels at the Port of Lake Charles - Entergy"
+    },
+    {
+      "id": "energy-nola-solar",
+      "url": "https://portnola.com/assets/pdf/Port-NOLAs-Green-Supply-Chain-Report-July-2022.pdf",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portnola.com/assets/pdf/Port-NOLAs-Green-Supply-Chain-Report-July-2022.pdf",
+      "contentType": "application/pdf",
+      "sha256": "0ab674c36a6bae961401f70c7d6d4d5244953121acc4745311a8194797cf96ae",
+      "bytes": 4377827
+    },
+    {
+      "id": "energy-nola-lit",
+      "url": "https://portnola.com/info/news-media/press-releases/port-of-new-orleans-unveils-design-updates-to-the-louisiana-international-terminal-based-on-early-community-input",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portnola.com/info/news-media/press-releases/port-of-new-orleans-unveils-design-updates-to-the-louisiana-international-terminal-based-on-early-community-input",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "21fe0a6da1e3cd577a2a0a23ec0f9a61832ff009d439dbf03fcb40a4239f78a0",
+      "bytes": 44322,
+      "title": "Port of New Orleans Unveils Design Updates to the… | Port NOLA"
+    },
+    {
+      "id": "energy-eco",
+      "url": "https://chouest.com/downloads/2024-eco-sustainability-report.pdf",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://chouest.com/downloads/2024-eco-sustainability-report.pdf",
+      "contentType": "application/pdf",
+      "sha256": "a2908149609bce95722271da1d0422c5c528cc41ee37b5bf52557ae2603a5fa2",
+      "bytes": 9845987
+    },
+    {
+      "id": "energy-caddo",
+      "url": "https://portcb.com/wp-content/uploads/2024/12/Minutes-of-November-18-2024-Special-Board-Meeting-Budget.-WEBSITE.pdf",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portcb.com/wp-content/uploads/2024/12/Minutes-of-November-18-2024-Special-Board-Meeting-Budget.-WEBSITE.pdf",
+      "contentType": "application/pdf",
+      "sha256": "f3728dc193d622fbc5577d46c6ab51cf50f2d0571ea42374df2d1c8c63d256aa",
+      "bytes": 311873
+    },
+    {
+      "id": "energy-avoyelles",
+      "url": "https://lacentralsites.com/industrial-site/avoyelles-parish-port-industrial-site",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://lacentralsites.com/industrial-site/avoyelles-parish-port-industrial-site",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "8064492cb5f63ee0488571567b4d74f7dd8363b8e4bb7af15cd5896396377535",
+      "bytes": 76435,
+      "title": "Avoyelles Parish Port Industrial Site | Louisiana Central"
+    },
+    {
+      "id": "energy-terrebonne",
+      "url": "https://louisianasiteselection.com/led/Property/Detail/2816/Port-of-Terrebonne-44-acres",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/led/Property/Detail/2816/Port-of-Terrebonne-44-acres",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "6dbda067c1f12ee2f4e6eb01bdc7c0a056ab06c2702b93b3e4cbdc76b8ffb6cc",
+      "bytes": 184243,
+      "title": "Port of Terrebonne - 44 acres"
+    },
+    {
+      "id": "energy-vinton",
+      "url": "https://portofvinton.com/real-estate-services/facilities/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portofvinton.com/real-estate-services/facilities/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "457d52e87f4bcdbdf847507098babef0709d07b11dad96c79e9c448df3bd436b",
+      "bytes": 140799,
+      "title": "Facilities – Port of Vinton"
+    },
+    {
+      "id": "energy-red-river",
+      "url": "https://buildingsandsites.com/nlep/Property/Detail/21369/Red-River-Parish-Port-Site",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://buildingsandsites.com/nlep/Property/Detail/21369/Red-River-Parish-Port-Site",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "7d20a0463da846268a6dc33f8a7fe3c34ef5d76b4e362c3a83e8128184046059",
+      "bytes": 187454,
+      "title": "Red River Parish Port Site"
+    },
+    {
+      "id": "energy-west-cal",
+      "url": "https://buildingsandsites.com/swla/Property/Detail/16229/West-Cal-Port",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://buildingsandsites.com/swla/Property/Detail/16229/West-Cal-Port",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "eed10a9992287cf79f500db2950e532c51819ae4afda865ac0d48d24e283edd3",
+      "bytes": 186705,
+      "title": "West Cal Port"
+    },
+    {
+      "id": "energy-providence",
+      "url": "https://louisianasiteselection.com/led/Property/Detail/22226/Lake-Providence-Port-Commission",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/led/Property/Detail/22226/Lake-Providence-Port-Commission",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "8af25df510c9432354f25c1f541490a20f02fa19b526df9728e2788d6b840cc8",
+      "bytes": 63936,
+      "title": "Lake Providence Port Commission"
+    },
+    {
+      "id": "energy-manchac",
+      "url": "https://louisianasiteselection.com/led/Property/Detail/2698/Port-Manchac-Industrial-Site",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/led/Property/Detail/2698/Port-Manchac-Industrial-Site",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "8dde0c200f895503fb36565b69d6a62958c68bd73e338c03d2b408b5ce3b207d",
+      "bytes": 140450,
+      "title": "Port Manchac Industrial Site"
+    },
+    {
+      "id": "energy-natchitoches",
+      "url": "https://louisianasiteselection.com/led/Property/Detail/3363/Natchitoches-Parish-Port",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/led/Property/Detail/3363/Natchitoches-Parish-Port",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "9b9d4c5c54d9c40f0d71fdcbc7a3321bf92111dfd08315264d9fd2e59215955c",
+      "bytes": 186071,
+      "title": "Natchitoches Parish Port"
+    },
+    {
+      "id": "energy-delcambre",
+      "url": "https://portofdelcambre.com/marina/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portofdelcambre.com/marina/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "af0c0b663fadf46c9efceb615df95829070e1fe5f1de5587ce24837703d2146a",
+      "bytes": 139225,
+      "title": "Marina | Port of Delcambre"
+    },
+    {
+      "id": "energy-iberia",
+      "url": "https://www.portofiberia.com/overview/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.portofiberia.com/overview/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "e111a1787e5cced55be851483eeab544ffbcf125dca8d9eb5828ccd27fe5d854",
+      "bytes": 214751,
+      "title": "Port Info | Port of Iberia  |  New Iberia, LA"
+    },
+    {
+      "id": "energy-krotz",
+      "url": "https://portofkrotzsprings.com/about/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portofkrotzsprings.com/about/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "fe158236a3d2c418e864f75fc1da64363783e197dfc80a1737415030b397dece",
+      "bytes": 116201,
+      "title": "About Port of Krotz Springs | Centrally Located for Industrial Commerce"
+    },
+    {
+      "id": "energy-columbia",
+      "url": "https://strategicbiofuels.com/projects/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://strategicbiofuels.com/projects/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "2ed88a3f89b9bd2be87736cdbd85ccbfa5fd68201128a3c5e0d4d769f3f14272",
+      "bytes": 53741,
+      "title": "Projects - Strategic Biofuels : Strategic Biofuels"
+    },
+    {
+      "id": "energy-madison",
+      "url": "https://madisonparishport.com/utility-providers",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://madisonparishport.com/utility-providers",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "4de238953b082c1e0b4d409dd8437b7d70441baee283533afce620bb5d05065e",
+      "bytes": 185089,
+      "title": "Utility Providers"
+    },
+    {
+      "id": "website-cameron",
+      "url": "https://cameronparishport.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://cameronparishport.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "b81beeb4a081677b8509db825f07297e6a3d866af64a0707a7e4b3d78a6025ea",
+      "bytes": 296621,
+      "title": "Home - The Cameron Parish Port, Terminal and Harbor District"
+    },
+    {
+      "id": "website-loop",
+      "url": "https://www.loopllc.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.loopllc.com/",
+      "contentType": "text/html",
+      "sha256": "527d357bb6485132151d55361d1c81ed77abe3ef211b452bbbe1c93c647ad668",
+      "bytes": 664,
+      "title": "Louisiana Offshore Oil Port Services"
+    },
+    {
+      "id": "website-fourchon",
+      "url": "https://www.portfourchon.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.portfourchon.com/",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "be9a04f61c66a7285187ee85eea28e7e8700c25393fa124e005a6fc217fd165f",
+      "bytes": 323744,
+      "title": "\r\n    \n    Offshore Energy Hub & Deepwater Port | Port Fourchon\n  \r\n  "
+    },
+    {
+      "id": "website-baton-rouge",
+      "url": "https://www.portgbr.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.portgbr.com/",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "fba08a51dc7d75461767bfad80d0d444d544caff71992ac2a593bfc184feaff0",
+      "bytes": 168350,
+      "title": "The Port of Greater Baton Rouge"
+    },
+    {
+      "id": "website-lake-charles",
+      "url": "https://portlc.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portlc.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "9592ae766f0eaace1b3d86feaafa90425d6d610f9f668caabb34f5b3378684e6",
+      "bytes": 251070,
+      "title": "Port of Lake Charles | Top 10 U.S. Port & Global LNG Export Hub"
+    },
+    {
+      "id": "website-new-orleans",
+      "url": "https://portnola.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portnola.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "b84ae831e16a18e90ae7a3b81bb17ead58308eb50e37049e24a0de8c9def4aaf",
+      "bytes": 46281,
+      "title": "Cargo, Rail, Cruises, & Industrial Real Estate | Port of… | Port NOLA"
+    },
+    {
+      "id": "website-plaquemines",
+      "url": "https://www.louisianagatewayport.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.louisianagatewayport.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "00bb46922d27de8ae55c9dcc0dcb6ebeaf2fd86e080dd1adf08fc880e18c27eb",
+      "bytes": 105511,
+      "title": "Plaquemines Port Harbor and Terminal "
+    },
+    {
+      "id": "website-south-louisiana",
+      "url": "https://portsl.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portsl.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "1cdfef9da808f6ea09f1f1c5ae1af5c3cc834665d6ff6cd0c53b9fe773929f09",
+      "bytes": 68700,
+      "title": "Port of South Louisiana"
+    },
+    {
+      "id": "website-st-bernard",
+      "url": "https://www.stbernardport.com",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.stbernardport.com",
+      "contentType": "text/html;charset=utf-8",
+      "sha256": "1b33b3c7fa5827d642e077e919810b9d9712255d70336a5ae3350bb336790aaa",
+      "bytes": 262673,
+      "title": "St. Bernard Port, Harbor and Terminal District"
+    },
+    {
+      "id": "website-manchac",
+      "url": "https://portmanchac.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portmanchac.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "fa871b948d9b7585d6911ca3ac6bccca24cc5f59be5c21ab1b71f1b4209a84e5",
+      "bytes": 152882,
+      "title": "PORT MANCHAC – Intermodal Port – Barge – Rail – Truck"
+    },
+    {
+      "id": "website-delcambre",
+      "url": "https://portofdelcambre.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portofdelcambre.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "3a4fcae4ab11bcca21b72eba630490fa82cca18817e84a4c806f2c683bfee03f",
+      "bytes": 210193,
+      "title": "Port of Delcambre |"
+    },
+    {
+      "id": "website-grand-isle",
+      "url": "https://grandisleport.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://grandisleport.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "9a0ea82c3bdf7be0eb22fd864639182ea7beab7ce0f0f68f86fe009c9fd4430c",
+      "bytes": 136883,
+      "title": "Grand Isle Port Commission"
+    },
+    {
+      "id": "website-iberia",
+      "url": "https://www.portofiberia.com",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.portofiberia.com",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "b8f54bbb2d12fd3dab19fbc036eed63880ef3a7d76d118fcac40aab7f0c6bcc2",
+      "bytes": 211739,
+      "title": "Port Of Iberia - New Iberia, Louisiana"
+    },
+    {
+      "id": "website-morgan-city",
+      "url": "https://portofmc.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portofmc.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "a0985560c9c02687175464fcc5ca3ef3556ccf4f5f7e797505493b5661923b0c",
+      "bytes": 355422,
+      "title": "Port of Morgan City. Marine Shipping & Transportation -"
+    },
+    {
+      "id": "website-vermilion",
+      "url": "https://abbevilleharbor.com",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://abbevilleharbor.com",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "e9a90d19d8a8f57caa12756db2b3d1bb281a76507f0a113d2f4d67d416ff4aaf",
+      "bytes": 177963,
+      "title": "Abbeville Harbor and Terminal District | Port of Vermilion"
+    },
+    {
+      "id": "website-vinton",
+      "url": "https://portofvinton.com",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portofvinton.com",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "09108fd83c68100f71792391ad78e6a21e7fe4f94d6dfea22d514b40ed9c9285",
+      "bytes": 155445,
+      "title": "Port of Vinton"
+    },
+    {
+      "id": "website-west-st-mary",
+      "url": "https://www.portofwsm.com",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.portofwsm.com",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "841055264edb23e84f8b5ee7ed8d188c4b1df9deeb905569c4a3b25c98541b11",
+      "bytes": 128914,
+      "title": "Port of West St. Mary - Servicing Baldwin & Franklin LA since 1976"
+    },
+    {
+      "id": "website-west-calcasieu",
+      "url": "https://westcalport.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://westcalport.com/",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "73144fed4c95f5ef5aed6384bc953638292350514e56ffe0a96351d8603112f2",
+      "bytes": 122140,
+      "title": "West Cal Port"
+    },
+    {
+      "id": "website-central-louisiana",
+      "url": "https://clrport.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://clrport.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "111a4582051d73d00552c7b5691ce804264cc00da477cba27504dfd827c7bfb8",
+      "bytes": 106192,
+      "title": "Port Terminal | Central Louisiana Regional Port"
+    },
+    {
+      "id": "website-madison",
+      "url": "https://madisonparishport.com",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://madisonparishport.com",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "b0058492a5f801cbbf262e42f4b5548946600ba46ca355038ea726e499dee574",
+      "bytes": 210791,
+      "title": "Home"
+    },
+    {
+      "id": "website-natchitoches",
+      "url": "https://www.natchitochesparishport.com",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.natchitochesparishport.com",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "4a89b151399535ed56dcbe1e97ae181d8e7229d6b6e50a58e2e4431cca830fd2",
+      "bytes": 687457,
+      "title": "HOME | Natchitoches Parish"
+    },
+    {
+      "id": "website-caddo-bossier",
+      "url": "https://portcb.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portcb.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "7c825d86356d5725b68f5e3980b6d4aa907c7894f290afae4937ec1ebb7d08ee",
+      "bytes": 250391,
+      "title": "home - The Port"
+    },
+    {
+      "id": "website-columbia",
+      "url": "https://www.portcolumbia.com",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.portcolumbia.com",
+      "contentType": "text/html; charset=utf-8",
+      "sha256": "8838c9e3de63255cdba81d90508042049760cd67a5cabce1111f73d9cdb38324",
+      "bytes": 25024,
+      "title": "Port Of Columbia"
+    },
+    {
+      "id": "website-krotz-springs",
+      "url": "https://portofkrotzsprings.com/",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://portofkrotzsprings.com/",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "be26608a4890a213c7194b1f8b28afd5bf566cd7a4c840b4ce7f0d63be04e7ce",
+      "bytes": 147012,
+      "title": "Louisiana's Port of Krotz Springs | The Gateway to the Atchafalaya"
+    },
+    {
+      "id": "website-vidalia",
+      "url": "https://www.cityofvidaliala.com/port-of-vidalia",
+      "checked": "2026-09-17",
+      "status": 200,
+      "finalUrl": "https://www.cityofvidaliala.com/port-of-vidalia",
+      "contentType": "text/html; charset=UTF-8",
+      "sha256": "3f01a3d319ef05e6e68d60a56fb0718df4c53c0b6dcd4f4272bbc20497b5ad72",
+      "bytes": 468384,
+      "title": "Port of Vidalia | Town of Vidalia, LA"
+    }
+  ],
+  "ports": [
+    {
+      "id": "cameron",
+      "name": "Cameron Parish Port",
+      "profilePage": 9,
+      "factCount": 10,
+      "locationSource": "census-cameron",
+      "locationReview": "Existing representative reference retained; see location note",
+      "locationNote": "Approximate Census address-range location for the published contact address. Not a surveyed facility, entrance or verified current office. See the 2024 profile for the address."
+    },
+    {
+      "id": "loop",
+      "name": "Louisiana Offshore Oil Port (LOOP)",
+      "profilePage": 11,
+      "factCount": 1,
+      "locationSource": "noaa-loop",
+      "locationReview": "Existing representative reference retained; see location note",
+      "locationNote": "Offshore station reference, separate from LOOP’s onshore administration and storage facilities. Not a navigation waypoint."
+    },
+    {
+      "id": "fourchon",
+      "name": "Port Fourchon",
+      "profilePage": 12,
+      "factCount": 10,
+      "locationSource": "dock-0yvu",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0YVU. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "baton-rouge",
+      "name": "Port of Greater Baton Rouge",
+      "profilePage": 14,
+      "factCount": 10,
+      "locationSource": "dock-0spy",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0SPY. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "lake-charles",
+      "name": "Port of Lake Charles",
+      "profilePage": 16,
+      "factCount": 10,
+      "locationSource": "dock-0shr",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0SHR. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "new-orleans",
+      "name": "Port of New Orleans",
+      "profilePage": 18,
+      "factCount": 10,
+      "locationSource": "map-new-orleans",
+      "locationReview": "Existing representative reference retained; see location note",
+      "locationNote": "Reference published in the official website map. Contact maps can represent administration or a map center rather than a berth; not suitable for navigation."
+    },
+    {
+      "id": "plaquemines",
+      "name": "Plaquemines Port",
+      "profilePage": 20,
+      "factCount": 10,
+      "locationSource": "dock-0xa3",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0XA3. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "south-louisiana",
+      "name": "Port of South Louisiana",
+      "profilePage": 22,
+      "factCount": 10,
+      "locationSource": "dock-0u1z",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0U1Z. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "st-bernard",
+      "name": "St. Bernard Port",
+      "profilePage": 24,
+      "factCount": 10,
+      "locationSource": "dock-0sfy",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0SFY. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "manchac",
+      "name": "Port Manchac",
+      "profilePage": 27,
+      "factCount": 10,
+      "locationSource": "dock-0x2v",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0X2V. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "delcambre",
+      "name": "Port of Delcambre",
+      "profilePage": 29,
+      "factCount": 10,
+      "locationSource": "map-delcambre",
+      "locationReview": "Existing representative reference retained; see location note",
+      "locationNote": "Reference published in the official website map. Contact maps can represent administration or a map center rather than a berth; not suitable for navigation."
+    },
+    {
+      "id": "grand-isle",
+      "name": "Port of Grand Isle",
+      "profilePage": 31,
+      "factCount": 10,
+      "locationSource": "map-grand-isle",
+      "locationReview": "Existing representative reference retained; see location note",
+      "locationNote": "Reference published in the official website map. Contact maps can represent administration or a map center rather than a berth; not suitable for navigation."
+    },
+    {
+      "id": "iberia",
+      "name": "Port of Iberia",
+      "profilePage": 33,
+      "factCount": 10,
+      "locationSource": "dock-0zw8",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0ZW8. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "mermentau",
+      "name": "Port of Mermentau",
+      "profilePage": 35,
+      "factCount": 10,
+      "locationSource": "dock-0wmp",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0WMP. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "morgan-city",
+      "name": "Port of Morgan City",
+      "profilePage": 37,
+      "factCount": 10,
+      "locationSource": "dock-0zne",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0ZNE. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "terrebonne",
+      "name": "Port of Terrebonne",
+      "profilePage": 39,
+      "factCount": 10,
+      "locationSource": "dock-0zy1",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0ZY1. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "vermilion",
+      "name": "Port of Vermilion",
+      "profilePage": 41,
+      "factCount": 10,
+      "locationSource": "dock-0ynx",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0YNX. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "vinton",
+      "name": "Port of Vinton",
+      "profilePage": 43,
+      "factCount": 10,
+      "locationSource": "vinton-led",
+      "locationReview": "Existing representative reference retained; see location note",
+      "locationNote": "Historical LED industrial-site reference, not the port office, a berth or a driving entrance. Current property availability is not asserted."
+    },
+    {
+      "id": "west-st-mary",
+      "name": "Port of West St. Mary",
+      "profilePage": 45,
+      "factCount": 10,
+      "locationSource": "dock-0qeh",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0QEH. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "west-calcasieu",
+      "name": "West Calcasieu Port",
+      "profilePage": 47,
+      "factCount": 10,
+      "locationSource": "dock-0zdr",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0ZDR. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "central-louisiana",
+      "name": "Central Louisiana Regional Port",
+      "profilePage": 50,
+      "factCount": 10,
+      "locationSource": "dock-0tcu",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0TCU. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "ouachita",
+      "name": "Greater Ouachita Port",
+      "profilePage": 52,
+      "factCount": 10,
+      "locationSource": "census-ouachita",
+      "locationReview": "Existing representative reference retained; see location note",
+      "locationNote": "Approximate Census address-range location for the published contact address. Not a surveyed facility, entrance or verified current office. See the 2024 profile for the address."
+    },
+    {
+      "id": "madison",
+      "name": "Madison Parish Port",
+      "profilePage": 54,
+      "factCount": 10,
+      "locationSource": "dock-0xb0",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0XB0. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "natchitoches",
+      "name": "Natchitoches Parish Port",
+      "profilePage": 56,
+      "factCount": 10,
+      "locationSource": "dock-0rlk",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0RLK. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "avoyelles",
+      "name": "Port of Avoyelles",
+      "profilePage": 58,
+      "factCount": 10,
+      "locationSource": "dock-10q0",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 10Q0. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "caddo-bossier",
+      "name": "Port of Caddo-Bossier",
+      "profilePage": 60,
+      "factCount": 10,
+      "locationSource": "dock-0te3",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0TE3. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "columbia",
+      "name": "Port of Columbia",
+      "profilePage": 62,
+      "factCount": 10,
+      "locationSource": "map-columbia",
+      "locationReview": "Existing representative reference retained; see location note",
+      "locationNote": "Reference published in the official website map. Contact maps can represent administration or a map center rather than a berth; not suitable for navigation."
+    },
+    {
+      "id": "krotz-springs",
+      "name": "Port of Krotz Springs",
+      "profilePage": 64,
+      "factCount": 10,
+      "locationSource": "map-krotz-springs",
+      "locationReview": "Existing representative reference retained; see location note",
+      "locationNote": "Reference published in the official website map. Contact maps can represent administration or a map center rather than a berth; not suitable for navigation."
+    },
+    {
+      "id": "lake-providence",
+      "name": "Port of Lake Providence",
+      "profilePage": 66,
+      "factCount": 10,
+      "locationSource": "dock-0xaf",
+      "locationReview": "Fresh USACE geometry reconciled",
+      "locationNote": "USACE facility 0XAF. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical."
+    },
+    {
+      "id": "vidalia",
+      "name": "Port of Vidalia",
+      "profilePage": 68,
+      "factCount": 10,
+      "locationSource": "usace-vidalia",
+      "locationReview": "Existing representative reference retained; see location note",
+      "locationNote": "USACE public-notice coordinate for the port project area. Not an entrance or confirmation that proposed work is complete."
+    },
+    {
+      "id": "red-river",
+      "name": "Red River Parish Port",
+      "profilePage": 70,
+      "factCount": 10,
+      "locationSource": "red-river-site",
+      "locationReview": "Existing representative reference retained; see location note",
+      "locationNote": "Published property reference from the environmental assessment. Represents the industrial site rather than the river berth."
+    },
+    {
+      "id": "tensas",
+      "name": "Tensas Parish Port",
+      "profilePage": 72,
+      "factCount": 5,
+      "locationSource": "usace-tensas",
+      "locationReview": "Existing representative reference retained; see location note",
+      "locationNote": "Project reference point in the July 2025 public notice. Do not interpret this marker as an operating terminal or approved construction."
+    }
+  ],
+  "limitations": [
+    "HTTP success indicates accessibility, not factual verification. Three automated requests returned HTTP 403; these are access restrictions, not demonstrated broken links.",
+    "All 32 annual electricity, measured peak demand, renewable share and backup-capacity values remain null.",
+    "New energy records are individually scoped to properties, terminals or projects; none establishes district-wide exclusive utility supply."
+  ],
+  "addedEnergySources": [
+    {
+      "id": "energy-cameron-site",
+      "title": "Cameron Parish Port property — utility listing",
+      "publisher": "Louisiana Economic Development",
+      "url": "https://louisianasiteselection.com/led/Property/Detail/21937/Cameron-Parish-Port-Harbor-Terminal-District",
+      "published": "Listing updated July 20, 2026",
+      "accessed": "2026-09-17",
+      "notes": "Calcasieu River Loop property; LED listing 21937. Scope and historical status are retained in the energy record."
+    },
+    {
+      "id": "energy-south-la-grid",
+      "title": "Commission minutes — Entergy right of way",
+      "publisher": "Port of South Louisiana",
+      "url": "https://portsl.com/wp-content/uploads/2025/03/2025_02_19_PortSL_Regular_Cmsn_Meeting_Minutes.pdf",
+      "published": "February 19, 2025",
+      "accessed": "2026-09-17",
+      "notes": "Port St. James Westbank property. Scope and historical status are retained in the energy record."
+    },
+    {
+      "id": "energy-baton-gron",
+      "title": "Commission minutes — Grön Fuels power infrastructure",
+      "publisher": "Port of Greater Baton Rouge",
+      "url": "https://static1.squarespace.com/static/533972c5e4b0b7f04d8f67a2/t/637c06d6f9dcb351e04c6d47/1669072598351/09-22-22%2BCommission%2BMeeting%2BMinutes.pdf",
+      "published": "September 22, 2022",
+      "accessed": "2026-09-17",
+      "notes": "Grön Fuels tenant project. Scope and historical status are retained in the energy record."
+    },
+    {
+      "id": "energy-nola-grid",
+      "title": "Napoleon terminal automatic load transfer",
+      "publisher": "Entergy Business Development",
+      "url": "https://goentergy.com/preparing-the-way-entergys-work-on-site-prep-reaps-results-for-companies-and-communities",
+      "published": "August 16, 2021; article originally May 2021",
+      "accessed": "2026-09-17",
+      "notes": "Napoleon Intermodal Terminal. Scope and historical status are retained in the energy record."
+    },
+    {
+      "id": "energy-nola-lighting",
+      "title": "New Orleans Cold Storage lighting case study",
+      "publisher": "Digital Lumens",
+      "url": "https://digitallumens.com/our-world/success/nocs/",
+      "published": "Undated case study; reviewed September 17, 2026",
+      "accessed": "2026-09-17",
+      "notes": "New Orleans Cold Storage; 142,000-square-foot warehouse at the port. Supplier-reported comparison; measurement period is not stated."
+    }
+  ]
+}
