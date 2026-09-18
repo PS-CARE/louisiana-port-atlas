@@ -1,0 +1,1607 @@
+{
+  "source": "NASA POWER",
+  "checked": "2026-09-17",
+  "methodology": "https://power.larc.nasa.gov/docs/methodology/data/sources/",
+  "ports": {
+    "cameron": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.3239679&latitude=29.7983881&format=JSON",
+      "sha256": "b6e2e7c300954bf94912fa890f35f3988f3cba2f2deb8cd756ffeda6c5b78a3c",
+      "coordinates": [
+        -93.324,
+        29.798,
+        5.1
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.9131,
+        "FEB": 3.3962,
+        "MAR": 4.7112,
+        "APR": 5.6786,
+        "MAY": 6.4694,
+        "JUN": 6.5558,
+        "JUL": 6.1262,
+        "AUG": 5.7782,
+        "SEP": 5.0957,
+        "OCT": 4.5096,
+        "NOV": 3.4466,
+        "DEC": 2.6489,
+        "ANN": 4.7834
+      },
+      "wind": {
+        "JAN": 6.6,
+        "FEB": 6.76,
+        "MAR": 6.65,
+        "APR": 6.79,
+        "MAY": 6.12,
+        "JUN": 5.06,
+        "JUL": 4.48,
+        "AUG": 4.44,
+        "SEP": 5.12,
+        "OCT": 5.71,
+        "NOV": 6.24,
+        "DEC": 6.65,
+        "ANN": 5.88
+      }
+    },
+    "loop": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.025&latitude=28.885&format=JSON",
+      "sha256": "311129b4a301e321d7cb877b43348b18f5eb4b8a3a7292ac1040d1a307233324",
+      "coordinates": [
+        -90.025,
+        28.885,
+        0.04
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 3.0864,
+        "FEB": 3.8018,
+        "MAR": 5.0868,
+        "APR": 6.0086,
+        "MAY": 6.8146,
+        "JUN": 6.6379,
+        "JUL": 6.0492,
+        "AUG": 5.7084,
+        "SEP": 5.2291,
+        "OCT": 4.6303,
+        "NOV": 3.5779,
+        "DEC": 2.8128,
+        "ANN": 4.9579
+      },
+      "wind": {
+        "JAN": 7.36,
+        "FEB": 7.19,
+        "MAR": 6.81,
+        "APR": 6.73,
+        "MAY": 5.62,
+        "JUN": 4.65,
+        "JUL": 4.03,
+        "AUG": 4.29,
+        "SEP": 5.39,
+        "OCT": 6.37,
+        "NOV": 6.74,
+        "DEC": 7.21,
+        "ANN": 6.03
+      }
+    },
+    "fourchon": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.2125056&latitude=29.1447272&format=JSON",
+      "sha256": "e276a120c8a4ec342a54a07d7fd028ba98e322df38fc92d579ca3ace7010a397",
+      "coordinates": [
+        -90.213,
+        29.145,
+        0.04
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 3.041,
+        "FEB": 3.635,
+        "MAR": 4.889,
+        "APR": 5.8306,
+        "MAY": 6.4606,
+        "JUN": 6.079,
+        "JUL": 5.6352,
+        "AUG": 5.3578,
+        "SEP": 5.111,
+        "OCT": 4.5242,
+        "NOV": 3.5335,
+        "DEC": 2.7406,
+        "ANN": 4.7405
+      },
+      "wind": {
+        "JAN": 7.36,
+        "FEB": 7.19,
+        "MAR": 6.81,
+        "APR": 6.73,
+        "MAY": 5.62,
+        "JUN": 4.65,
+        "JUL": 4.03,
+        "AUG": 4.29,
+        "SEP": 5.39,
+        "OCT": 6.37,
+        "NOV": 6.74,
+        "DEC": 7.21,
+        "ANN": 6.03
+      }
+    },
+    "baton-rouge": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.2002159&latitude=30.4402865&format=JSON",
+      "sha256": "1da5fd95ada99d4afec46f3e976383af1d7c026945b6a46c4d2286090994ff46",
+      "coordinates": [
+        -91.2,
+        30.44,
+        18.72
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.8879,
+        "FEB": 3.3994,
+        "MAR": 4.5696,
+        "APR": 5.6635,
+        "MAY": 6.2136,
+        "JUN": 6.1416,
+        "JUL": 5.897,
+        "AUG": 5.6148,
+        "SEP": 5.1317,
+        "OCT": 4.4059,
+        "NOV": 3.3919,
+        "DEC": 2.6062,
+        "ANN": 4.6651
+      },
+      "wind": {
+        "JAN": 5.54,
+        "FEB": 5.67,
+        "MAR": 5.59,
+        "APR": 5.6,
+        "MAY": 4.82,
+        "JUN": 4.02,
+        "JUL": 3.64,
+        "AUG": 3.68,
+        "SEP": 4.23,
+        "OCT": 4.83,
+        "NOV": 5.26,
+        "DEC": 5.47,
+        "ANN": 4.86
+      }
+    },
+    "lake-charles": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.2840545&latitude=30.1072913&format=JSON",
+      "sha256": "6ce1ec636c7624876f32c5be8db16db70804c13a7e740884609e7b95e9531878",
+      "coordinates": [
+        -93.284,
+        30.107,
+        5.1
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.8358,
+        "FEB": 3.235,
+        "MAR": 4.4057,
+        "APR": 5.3774,
+        "MAY": 6.001,
+        "JUN": 6.1334,
+        "JUL": 5.9695,
+        "AUG": 5.675,
+        "SEP": 5.021,
+        "OCT": 4.3013,
+        "NOV": 3.3108,
+        "DEC": 2.5512,
+        "ANN": 4.5739
+      },
+      "wind": {
+        "JAN": 6.6,
+        "FEB": 6.76,
+        "MAR": 6.65,
+        "APR": 6.79,
+        "MAY": 6.12,
+        "JUN": 5.06,
+        "JUL": 4.48,
+        "AUG": 4.44,
+        "SEP": 5.12,
+        "OCT": 5.71,
+        "NOV": 6.24,
+        "DEC": 6.65,
+        "ANN": 5.88
+      }
+    },
+    "new-orleans": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.0617318&latitude=29.9360795&format=JSON",
+      "sha256": "8f2833ff46a0bfe82746a11ba00ba88174e00b90bbbd3ccbf42fe095b7df28fc",
+      "coordinates": [
+        -90.062,
+        29.936,
+        1.69
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 3.041,
+        "FEB": 3.635,
+        "MAR": 4.889,
+        "APR": 5.8306,
+        "MAY": 6.4606,
+        "JUN": 6.079,
+        "JUL": 5.6352,
+        "AUG": 5.3578,
+        "SEP": 5.111,
+        "OCT": 4.5242,
+        "NOV": 3.5335,
+        "DEC": 2.7406,
+        "ANN": 4.7405
+      },
+      "wind": {
+        "JAN": 6.49,
+        "FEB": 6.49,
+        "MAR": 6.32,
+        "APR": 6.26,
+        "MAY": 5.37,
+        "JUN": 4.53,
+        "JUL": 4.1,
+        "AUG": 4.15,
+        "SEP": 4.89,
+        "OCT": 5.56,
+        "NOV": 6.01,
+        "DEC": 6.4,
+        "ANN": 5.54
+      }
+    },
+    "plaquemines": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-89.9819496&latitude=29.8538944&format=JSON",
+      "sha256": "44da7b00644aeb5a4d6551cd74d410da86647877f696885fcbba05b12c882b0a",
+      "coordinates": [
+        -89.982,
+        29.854,
+        1.69
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.9549,
+        "FEB": 3.6024,
+        "MAR": 4.8019,
+        "APR": 5.7058,
+        "MAY": 6.371,
+        "JUN": 6.1771,
+        "JUL": 5.6645,
+        "AUG": 5.3498,
+        "SEP": 5.033,
+        "OCT": 4.433,
+        "NOV": 3.4505,
+        "DEC": 2.6743,
+        "ANN": 4.6886
+      },
+      "wind": {
+        "JAN": 6.49,
+        "FEB": 6.49,
+        "MAR": 6.32,
+        "APR": 6.26,
+        "MAY": 5.37,
+        "JUN": 4.53,
+        "JUL": 4.1,
+        "AUG": 4.15,
+        "SEP": 4.89,
+        "OCT": 5.56,
+        "NOV": 6.01,
+        "DEC": 6.4,
+        "ANN": 5.54
+      }
+    },
+    "south-louisiana": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.5654468&latitude=30.0539004&format=JSON",
+      "sha256": "b013ba282db829ee472e654062f7ff00aca4dfd21a5dd878723fe549604d0ef0",
+      "coordinates": [
+        -90.565,
+        30.054,
+        4.44
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.9172,
+        "FEB": 3.4526,
+        "MAR": 4.6145,
+        "APR": 5.6875,
+        "MAY": 6.2465,
+        "JUN": 6.0715,
+        "JUL": 5.8102,
+        "AUG": 5.5435,
+        "SEP": 5.1334,
+        "OCT": 4.3994,
+        "NOV": 3.4121,
+        "DEC": 2.6244,
+        "ANN": 4.6639
+      },
+      "wind": {
+        "JAN": 6.18,
+        "FEB": 6.22,
+        "MAR": 6.07,
+        "APR": 6.04,
+        "MAY": 5.18,
+        "JUN": 4.31,
+        "JUL": 3.9,
+        "AUG": 3.93,
+        "SEP": 4.66,
+        "OCT": 5.31,
+        "NOV": 5.74,
+        "DEC": 6.08,
+        "ANN": 5.3
+      }
+    },
+    "st-bernard": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-89.9980446&latitude=29.9451334&format=JSON",
+      "sha256": "05a95d05b9d2fcb13036da07588b403e56f1fc84becd7b48623c1ff3c84a0575",
+      "coordinates": [
+        -89.998,
+        29.945,
+        1.69
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.9549,
+        "FEB": 3.6024,
+        "MAR": 4.8019,
+        "APR": 5.7058,
+        "MAY": 6.371,
+        "JUN": 6.1771,
+        "JUL": 5.6645,
+        "AUG": 5.3498,
+        "SEP": 5.033,
+        "OCT": 4.433,
+        "NOV": 3.4505,
+        "DEC": 2.6743,
+        "ANN": 4.6886
+      },
+      "wind": {
+        "JAN": 6.49,
+        "FEB": 6.49,
+        "MAR": 6.32,
+        "APR": 6.26,
+        "MAY": 5.37,
+        "JUN": 4.53,
+        "JUL": 4.1,
+        "AUG": 4.15,
+        "SEP": 4.89,
+        "OCT": 5.56,
+        "NOV": 6.01,
+        "DEC": 6.4,
+        "ANN": 5.54
+      }
+    },
+    "manchac": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.4041727&latitude=30.3122275&format=JSON",
+      "sha256": "eca99257102c5d06d35a26a9cc3fd3ee99338ea70384ade4d890e6422eaa9d7f",
+      "coordinates": [
+        -90.404,
+        30.312,
+        24.55
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.9172,
+        "FEB": 3.4526,
+        "MAR": 4.6145,
+        "APR": 5.6875,
+        "MAY": 6.2465,
+        "JUN": 6.0715,
+        "JUL": 5.8102,
+        "AUG": 5.5435,
+        "SEP": 5.1334,
+        "OCT": 4.3994,
+        "NOV": 3.4121,
+        "DEC": 2.6244,
+        "ANN": 4.6639
+      },
+      "wind": {
+        "JAN": 4.51,
+        "FEB": 4.61,
+        "MAR": 4.6,
+        "APR": 4.6,
+        "MAY": 4.01,
+        "JUN": 3.41,
+        "JUL": 3.16,
+        "AUG": 3.21,
+        "SEP": 3.67,
+        "OCT": 4.09,
+        "NOV": 4.35,
+        "DEC": 4.46,
+        "ANN": 4.05
+      }
+    },
+    "delcambre": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.9886082&latitude=29.9492933&format=JSON",
+      "sha256": "125f490bfea6abda313fe7694961928d0b21395b3aa153e73e8af971af634c6c",
+      "coordinates": [
+        -91.989,
+        29.949,
+        6.16
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.9882,
+        "FEB": 3.5539,
+        "MAR": 4.8542,
+        "APR": 5.8349,
+        "MAY": 6.541,
+        "JUN": 6.3814,
+        "JUL": 5.8826,
+        "AUG": 5.5541,
+        "SEP": 5.1708,
+        "OCT": 4.5662,
+        "NOV": 3.5306,
+        "DEC": 2.7283,
+        "ANN": 4.8036
+      },
+      "wind": {
+        "JAN": 6.82,
+        "FEB": 6.91,
+        "MAR": 6.69,
+        "APR": 6.72,
+        "MAY": 5.79,
+        "JUN": 4.77,
+        "JUL": 4.21,
+        "AUG": 4.24,
+        "SEP": 4.97,
+        "OCT": 5.7,
+        "NOV": 6.36,
+        "DEC": 6.75,
+        "ANN": 5.82
+      }
+    },
+    "grand-isle": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.0058678&latitude=29.225848&format=JSON",
+      "sha256": "484afeb6e419c4bfb4a67090d2486b71874d06df5110668921c2d4c8aef319df",
+      "coordinates": [
+        -90.006,
+        29.226,
+        0.04
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 3.041,
+        "FEB": 3.635,
+        "MAR": 4.889,
+        "APR": 5.8306,
+        "MAY": 6.4606,
+        "JUN": 6.079,
+        "JUL": 5.6352,
+        "AUG": 5.3578,
+        "SEP": 5.111,
+        "OCT": 4.5242,
+        "NOV": 3.5335,
+        "DEC": 2.7406,
+        "ANN": 4.7405
+      },
+      "wind": {
+        "JAN": 7.36,
+        "FEB": 7.19,
+        "MAR": 6.81,
+        "APR": 6.73,
+        "MAY": 5.62,
+        "JUN": 4.65,
+        "JUL": 4.03,
+        "AUG": 4.29,
+        "SEP": 5.39,
+        "OCT": 6.37,
+        "NOV": 6.74,
+        "DEC": 7.21,
+        "ANN": 6.03
+      }
+    },
+    "iberia": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.8377841&latitude=29.9247273&format=JSON",
+      "sha256": "23782ef24d0e1eca1ad5b8a638eaa81f5988a54608ed1166b0b45a17ec7e9b46",
+      "coordinates": [
+        -91.838,
+        29.925,
+        6.16
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.9882,
+        "FEB": 3.5539,
+        "MAR": 4.8542,
+        "APR": 5.8349,
+        "MAY": 6.541,
+        "JUN": 6.3814,
+        "JUL": 5.8826,
+        "AUG": 5.5541,
+        "SEP": 5.1708,
+        "OCT": 4.5662,
+        "NOV": 3.5306,
+        "DEC": 2.7283,
+        "ANN": 4.8036
+      },
+      "wind": {
+        "JAN": 6.82,
+        "FEB": 6.91,
+        "MAR": 6.69,
+        "APR": 6.72,
+        "MAY": 5.79,
+        "JUN": 4.77,
+        "JUL": 4.21,
+        "AUG": 4.24,
+        "SEP": 4.97,
+        "OCT": 5.7,
+        "NOV": 6.36,
+        "DEC": 6.75,
+        "ANN": 5.82
+      }
+    },
+    "mermentau": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-92.5988953&latitude=30.1866724&format=JSON",
+      "sha256": "6b3ff41540e31b909b29a372c913d50b79ce4141a33e36976f4442562de69a30",
+      "coordinates": [
+        -92.599,
+        30.187,
+        4.7
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.8586,
+        "FEB": 3.3043,
+        "MAR": 4.5034,
+        "APR": 5.5514,
+        "MAY": 6.1337,
+        "JUN": 6.1068,
+        "JUL": 5.9251,
+        "AUG": 5.599,
+        "SEP": 5.07,
+        "OCT": 4.362,
+        "NOV": 3.372,
+        "DEC": 2.5853,
+        "ANN": 4.6198
+      },
+      "wind": {
+        "JAN": 6.88,
+        "FEB": 7.01,
+        "MAR": 6.84,
+        "APR": 6.91,
+        "MAY": 6.06,
+        "JUN": 4.97,
+        "JUL": 4.37,
+        "AUG": 4.38,
+        "SEP": 5.11,
+        "OCT": 5.77,
+        "NOV": 6.44,
+        "DEC": 6.86,
+        "ANN": 5.96
+      }
+    },
+    "morgan-city": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.2026569&latitude=29.6898763&format=JSON",
+      "sha256": "11ef99746badae789529ca60deceb9889627f7733a13e4b59d333d5f2f10b27f",
+      "coordinates": [
+        -91.203,
+        29.69,
+        2.2
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.9882,
+        "FEB": 3.5539,
+        "MAR": 4.8542,
+        "APR": 5.8349,
+        "MAY": 6.541,
+        "JUN": 6.3814,
+        "JUL": 5.8826,
+        "AUG": 5.5541,
+        "SEP": 5.1708,
+        "OCT": 4.5662,
+        "NOV": 3.5306,
+        "DEC": 2.7283,
+        "ANN": 4.8036
+      },
+      "wind": {
+        "JAN": 7.16,
+        "FEB": 7.16,
+        "MAR": 6.85,
+        "APR": 6.86,
+        "MAY": 5.78,
+        "JUN": 4.77,
+        "JUL": 4.19,
+        "AUG": 4.23,
+        "SEP": 5.15,
+        "OCT": 5.94,
+        "NOV": 6.53,
+        "DEC": 7.05,
+        "ANN": 5.96
+      }
+    },
+    "terrebonne": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.6966728&latitude=29.5691723&format=JSON",
+      "sha256": "2216fdf869dbd852405c50f04a689ab592ac101b56ad66cc935bf727c65b0119",
+      "coordinates": [
+        -90.697,
+        29.569,
+        2.33
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 3.041,
+        "FEB": 3.635,
+        "MAR": 4.889,
+        "APR": 5.8306,
+        "MAY": 6.4606,
+        "JUN": 6.079,
+        "JUL": 5.6352,
+        "AUG": 5.3578,
+        "SEP": 5.111,
+        "OCT": 4.5242,
+        "NOV": 3.5335,
+        "DEC": 2.7406,
+        "ANN": 4.7405
+      },
+      "wind": {
+        "JAN": 6.88,
+        "FEB": 6.85,
+        "MAR": 6.59,
+        "APR": 6.56,
+        "MAY": 5.54,
+        "JUN": 4.59,
+        "JUL": 4.07,
+        "AUG": 4.15,
+        "SEP": 5.09,
+        "OCT": 5.85,
+        "NOV": 6.29,
+        "DEC": 6.75,
+        "ANN": 5.76
+      }
+    },
+    "vermilion": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-92.1200062&latitude=29.8961163&format=JSON",
+      "sha256": "cc833ad207d7553eeb2bbd9619288648c7e9a454d51310654bf4a1fbb194cd72",
+      "coordinates": [
+        -92.12,
+        29.896,
+        6.16
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.9664,
+        "FEB": 3.5026,
+        "MAR": 4.83,
+        "APR": 5.7984,
+        "MAY": 6.5678,
+        "JUN": 6.5191,
+        "JUL": 6.018,
+        "AUG": 5.7055,
+        "SEP": 5.1624,
+        "OCT": 4.583,
+        "NOV": 3.5194,
+        "DEC": 2.6998,
+        "ANN": 4.8281
+      },
+      "wind": {
+        "JAN": 6.82,
+        "FEB": 6.91,
+        "MAR": 6.69,
+        "APR": 6.72,
+        "MAY": 5.79,
+        "JUN": 4.77,
+        "JUL": 4.21,
+        "AUG": 4.24,
+        "SEP": 4.97,
+        "OCT": 5.7,
+        "NOV": 6.36,
+        "DEC": 6.75,
+        "ANN": 5.82
+      }
+    },
+    "vinton": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.560848&latitude=30.160991&format=JSON",
+      "sha256": "8d548616cc933ad1f38155f2e0e53332a239cf78c52e9e79acd5cff0788ba4ed",
+      "coordinates": [
+        -93.561,
+        30.161,
+        8.09
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.8358,
+        "FEB": 3.235,
+        "MAR": 4.4057,
+        "APR": 5.3774,
+        "MAY": 6.001,
+        "JUN": 6.1334,
+        "JUL": 5.9695,
+        "AUG": 5.675,
+        "SEP": 5.021,
+        "OCT": 4.3013,
+        "NOV": 3.3108,
+        "DEC": 2.5512,
+        "ANN": 4.5739
+      },
+      "wind": {
+        "JAN": 5.77,
+        "FEB": 5.93,
+        "MAR": 5.89,
+        "APR": 6.08,
+        "MAY": 5.57,
+        "JUN": 4.69,
+        "JUL": 4.22,
+        "AUG": 4.16,
+        "SEP": 4.67,
+        "OCT": 5.17,
+        "NOV": 5.52,
+        "DEC": 5.83,
+        "ANN": 5.29
+      }
+    },
+    "west-st-mary": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.7567601&latitude=29.7725763&format=JSON",
+      "sha256": "14e624e45fcc7aff429dcf149f7bbcc461c4ed1f0d7dcee67898488191180e50",
+      "coordinates": [
+        -91.757,
+        29.773,
+        6.16
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.9882,
+        "FEB": 3.5539,
+        "MAR": 4.8542,
+        "APR": 5.8349,
+        "MAY": 6.541,
+        "JUN": 6.3814,
+        "JUL": 5.8826,
+        "AUG": 5.5541,
+        "SEP": 5.1708,
+        "OCT": 4.5662,
+        "NOV": 3.5306,
+        "DEC": 2.7283,
+        "ANN": 4.8036
+      },
+      "wind": {
+        "JAN": 6.82,
+        "FEB": 6.91,
+        "MAR": 6.69,
+        "APR": 6.72,
+        "MAY": 5.79,
+        "JUN": 4.77,
+        "JUL": 4.21,
+        "AUG": 4.24,
+        "SEP": 4.97,
+        "OCT": 5.7,
+        "NOV": 6.36,
+        "DEC": 6.75,
+        "ANN": 5.82
+      }
+    },
+    "west-calcasieu": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.3539065&latitude=30.0619203&format=JSON",
+      "sha256": "b58d28c92942cd8a92b8ad116b4f27a1045fa0af246f31abe4a89cf0aa5aa78b",
+      "coordinates": [
+        -93.354,
+        30.062,
+        5.1
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.8358,
+        "FEB": 3.235,
+        "MAR": 4.4057,
+        "APR": 5.3774,
+        "MAY": 6.001,
+        "JUN": 6.1334,
+        "JUL": 5.9695,
+        "AUG": 5.675,
+        "SEP": 5.021,
+        "OCT": 4.3013,
+        "NOV": 3.3108,
+        "DEC": 2.5512,
+        "ANN": 4.5739
+      },
+      "wind": {
+        "JAN": 6.6,
+        "FEB": 6.76,
+        "MAR": 6.65,
+        "APR": 6.79,
+        "MAY": 6.12,
+        "JUN": 5.06,
+        "JUL": 4.48,
+        "AUG": 4.44,
+        "SEP": 5.12,
+        "OCT": 5.71,
+        "NOV": 6.24,
+        "DEC": 6.65,
+        "ANN": 5.88
+      }
+    },
+    "central-louisiana": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-92.4616733&latitude=31.3394496&format=JSON",
+      "sha256": "620e442bbb9334dea58037fa1fb227499cd5eb416e7cc9956982ddbdac40d5c1",
+      "coordinates": [
+        -92.462,
+        31.339,
+        45.49
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.7511,
+        "FEB": 3.2016,
+        "MAR": 4.3613,
+        "APR": 5.4372,
+        "MAY": 6.0442,
+        "JUN": 6.2254,
+        "JUL": 6.1121,
+        "AUG": 5.7629,
+        "SEP": 5.0611,
+        "OCT": 4.2266,
+        "NOV": 3.2383,
+        "DEC": 2.4806,
+        "ANN": 4.5811
+      },
+      "wind": {
+        "JAN": 4.55,
+        "FEB": 4.73,
+        "MAR": 4.8,
+        "APR": 4.9,
+        "MAY": 4.31,
+        "JUN": 3.73,
+        "JUL": 3.37,
+        "AUG": 3.48,
+        "SEP": 3.85,
+        "OCT": 4.19,
+        "NOV": 4.45,
+        "DEC": 4.54,
+        "ANN": 4.24
+      }
+    },
+    "ouachita": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-92.1364051&latitude=32.4894958&format=JSON",
+      "sha256": "129887d21dd7df04d481a73b21c5ed69c9910a29d4812014fdb234711cea3ca3",
+      "coordinates": [
+        -92.136,
+        32.489,
+        29.74
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.6822,
+        "FEB": 3.1051,
+        "MAR": 4.3042,
+        "APR": 5.4089,
+        "MAY": 6.029,
+        "JUN": 6.4123,
+        "JUL": 6.2424,
+        "AUG": 5.8418,
+        "SEP": 5.0657,
+        "OCT": 4.0867,
+        "NOV": 3.0725,
+        "DEC": 2.3942,
+        "ANN": 4.56
+      },
+      "wind": {
+        "JAN": 5.88,
+        "FEB": 6.08,
+        "MAR": 6.2,
+        "APR": 6.27,
+        "MAY": 5.42,
+        "JUN": 4.64,
+        "JUL": 4.16,
+        "AUG": 4.23,
+        "SEP": 4.79,
+        "OCT": 5.21,
+        "NOV": 5.66,
+        "DEC": 5.81,
+        "ANN": 5.35
+      }
+    },
+    "madison": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.121921&latitude=32.4947289&format=JSON",
+      "sha256": "be2209af91ae841d7f1b1f9d455b07051c8c64275e1c29f47314e9db6ba4689f",
+      "coordinates": [
+        -91.122,
+        32.495,
+        34.14
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.7026,
+        "FEB": 3.1771,
+        "MAR": 4.4071,
+        "APR": 5.531,
+        "MAY": 6.1375,
+        "JUN": 6.5508,
+        "JUL": 6.288,
+        "AUG": 5.8236,
+        "SEP": 5.1043,
+        "OCT": 4.1472,
+        "NOV": 3.1459,
+        "DEC": 2.4182,
+        "ANN": 4.6255
+      },
+      "wind": {
+        "JAN": 6.18,
+        "FEB": 6.38,
+        "MAR": 6.4,
+        "APR": 6.38,
+        "MAY": 5.42,
+        "JUN": 4.65,
+        "JUL": 4.19,
+        "AUG": 4.25,
+        "SEP": 4.86,
+        "OCT": 5.36,
+        "NOV": 5.85,
+        "DEC": 6.06,
+        "ANN": 5.49
+      }
+    },
+    "natchitoches": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.0838375&latitude=31.8253537&format=JSON",
+      "sha256": "120605ea05e95c88903ac4f087fdfd0a47aef7f0c3a876af919125b677550b18",
+      "coordinates": [
+        -93.084,
+        31.825,
+        63.79
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.7617,
+        "FEB": 3.1519,
+        "MAR": 4.3478,
+        "APR": 5.3618,
+        "MAY": 5.9532,
+        "JUN": 6.193,
+        "JUL": 6.1267,
+        "AUG": 5.8008,
+        "SEP": 5.0477,
+        "OCT": 4.1664,
+        "NOV": 3.1762,
+        "DEC": 2.4718,
+        "ANN": 4.5528
+      },
+      "wind": {
+        "JAN": 4.32,
+        "FEB": 4.45,
+        "MAR": 4.58,
+        "APR": 4.7,
+        "MAY": 4.16,
+        "JUN": 3.6,
+        "JUL": 3.28,
+        "AUG": 3.35,
+        "SEP": 3.69,
+        "OCT": 4.03,
+        "NOV": 4.29,
+        "DEC": 4.3,
+        "ANN": 4.06
+      }
+    },
+    "avoyelles": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.8069661&latitude=30.9629036&format=JSON",
+      "sha256": "a7b25bddd6352e1e65c28375d699c4700c0c0045d259b81d88368679d7a7395f",
+      "coordinates": [
+        -91.807,
+        30.963,
+        24.32
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.8879,
+        "FEB": 3.3994,
+        "MAR": 4.5696,
+        "APR": 5.6635,
+        "MAY": 6.2136,
+        "JUN": 6.1416,
+        "JUL": 5.897,
+        "AUG": 5.6148,
+        "SEP": 5.1317,
+        "OCT": 4.4059,
+        "NOV": 3.3919,
+        "DEC": 2.6062,
+        "ANN": 4.6651
+      },
+      "wind": {
+        "JAN": 5.59,
+        "FEB": 5.8,
+        "MAR": 5.71,
+        "APR": 5.71,
+        "MAY": 4.95,
+        "JUN": 4.17,
+        "JUL": 3.72,
+        "AUG": 3.8,
+        "SEP": 4.32,
+        "OCT": 4.84,
+        "NOV": 5.3,
+        "DEC": 5.53,
+        "ANN": 4.95
+      }
+    },
+    "caddo-bossier": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.6245707&latitude=32.3573028&format=JSON",
+      "sha256": "50d3d9fd28aa8ca1462238f0bd825cbb4f7e6797e38d3c5a19c9bd7b4c6031e9",
+      "coordinates": [
+        -93.625,
+        32.357,
+        71.22
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.7014,
+        "FEB": 3.0876,
+        "MAR": 4.309,
+        "APR": 5.4048,
+        "MAY": 5.9899,
+        "JUN": 6.3996,
+        "JUL": 6.3115,
+        "AUG": 5.8721,
+        "SEP": 5.0825,
+        "OCT": 4.0663,
+        "NOV": 3.0336,
+        "DEC": 2.4178,
+        "ANN": 4.5629
+      },
+      "wind": {
+        "JAN": 4.55,
+        "FEB": 4.68,
+        "MAR": 4.84,
+        "APR": 4.93,
+        "MAY": 4.38,
+        "JUN": 3.78,
+        "JUL": 3.44,
+        "AUG": 3.5,
+        "SEP": 3.87,
+        "OCT": 4.24,
+        "NOV": 4.53,
+        "DEC": 4.49,
+        "ANN": 4.27
+      }
+    },
+    "columbia": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-92.1022136&latitude=32.1847573&format=JSON",
+      "sha256": "ed8a4a0676c4bb353b5fcf1f4cf0a830eae3d24c11cdc2a31b67b76ea977d6ec",
+      "coordinates": [
+        -92.102,
+        32.185,
+        33.28
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.6822,
+        "FEB": 3.1051,
+        "MAR": 4.3042,
+        "APR": 5.4089,
+        "MAY": 6.029,
+        "JUN": 6.4123,
+        "JUL": 6.2424,
+        "AUG": 5.8418,
+        "SEP": 5.0657,
+        "OCT": 4.0867,
+        "NOV": 3.0725,
+        "DEC": 2.3942,
+        "ANN": 4.56
+      },
+      "wind": {
+        "JAN": 5.52,
+        "FEB": 5.74,
+        "MAR": 5.78,
+        "APR": 5.83,
+        "MAY": 5.06,
+        "JUN": 4.37,
+        "JUL": 3.91,
+        "AUG": 4.04,
+        "SEP": 4.54,
+        "OCT": 4.91,
+        "NOV": 5.31,
+        "DEC": 5.45,
+        "ANN": 5.03
+      }
+    },
+    "krotz-springs": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.7506356&latitude=30.5346707&format=JSON",
+      "sha256": "079b2a55252d1b50a58ccdca5591d48c199e79809252076b33f58e59bd9b4208",
+      "coordinates": [
+        -91.751,
+        30.535,
+        13.56
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.8879,
+        "FEB": 3.3994,
+        "MAR": 4.5696,
+        "APR": 5.6635,
+        "MAY": 6.2136,
+        "JUN": 6.1416,
+        "JUL": 5.897,
+        "AUG": 5.6148,
+        "SEP": 5.1317,
+        "OCT": 4.4059,
+        "NOV": 3.3919,
+        "DEC": 2.6062,
+        "ANN": 4.6651
+      },
+      "wind": {
+        "JAN": 6.33,
+        "FEB": 6.49,
+        "MAR": 6.35,
+        "APR": 6.36,
+        "MAY": 5.49,
+        "JUN": 4.52,
+        "JUL": 4.01,
+        "AUG": 4.08,
+        "SEP": 4.69,
+        "OCT": 5.38,
+        "NOV": 5.97,
+        "DEC": 6.26,
+        "ANN": 5.49
+      }
+    },
+    "lake-providence": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.171159&latitude=32.754369&format=JSON",
+      "sha256": "144b021df262ccb94a262bd32829212c064e3608f2329c1afa71859c5107daac",
+      "coordinates": [
+        -91.171,
+        32.754,
+        34.71
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.7026,
+        "FEB": 3.1771,
+        "MAR": 4.4071,
+        "APR": 5.531,
+        "MAY": 6.1375,
+        "JUN": 6.5508,
+        "JUL": 6.288,
+        "AUG": 5.8236,
+        "SEP": 5.1043,
+        "OCT": 4.1472,
+        "NOV": 3.1459,
+        "DEC": 2.4182,
+        "ANN": 4.6255
+      },
+      "wind": {
+        "JAN": 6.26,
+        "FEB": 6.45,
+        "MAR": 6.55,
+        "APR": 6.57,
+        "MAY": 5.58,
+        "JUN": 4.78,
+        "JUL": 4.27,
+        "AUG": 4.32,
+        "SEP": 4.97,
+        "OCT": 5.48,
+        "NOV": 5.99,
+        "DEC": 6.15,
+        "ANN": 5.61
+      }
+    },
+    "vidalia": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.482899&latitude=31.536789&format=JSON",
+      "sha256": "d5a8dd49e291e1c773092b5e9ea5e3121bd0e514de6b0ca818debcf948353dee",
+      "coordinates": [
+        -91.483,
+        31.537,
+        66.04
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.7727,
+        "FEB": 3.2964,
+        "MAR": 4.439,
+        "APR": 5.5793,
+        "MAY": 6.1805,
+        "JUN": 6.3679,
+        "JUL": 6.161,
+        "AUG": 5.7998,
+        "SEP": 5.154,
+        "OCT": 4.2876,
+        "NOV": 3.2765,
+        "DEC": 2.5003,
+        "ANN": 4.6567
+      },
+      "wind": {
+        "JAN": 4.89,
+        "FEB": 5.06,
+        "MAR": 5.03,
+        "APR": 5.01,
+        "MAY": 4.35,
+        "JUN": 3.76,
+        "JUL": 3.37,
+        "AUG": 3.46,
+        "SEP": 3.93,
+        "OCT": 4.36,
+        "NOV": 4.7,
+        "DEC": 4.81,
+        "ANN": 4.39
+      }
+    },
+    "red-river": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.3406076&latitude=31.9585299&format=JSON",
+      "sha256": "f19f63726796271d317b641b3f86cc82e47f9b1624bdbd09da24f622c5e27b16",
+      "coordinates": [
+        -93.341,
+        31.959,
+        63.79
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.7617,
+        "FEB": 3.1519,
+        "MAR": 4.3478,
+        "APR": 5.3618,
+        "MAY": 5.9532,
+        "JUN": 6.193,
+        "JUL": 6.1267,
+        "AUG": 5.8008,
+        "SEP": 5.0477,
+        "OCT": 4.1664,
+        "NOV": 3.1762,
+        "DEC": 2.4718,
+        "ANN": 4.5528
+      },
+      "wind": {
+        "JAN": 4.32,
+        "FEB": 4.45,
+        "MAR": 4.58,
+        "APR": 4.7,
+        "MAY": 4.16,
+        "JUN": 3.6,
+        "JUL": 3.28,
+        "AUG": 3.35,
+        "SEP": 3.69,
+        "OCT": 4.03,
+        "NOV": 4.29,
+        "DEC": 4.3,
+        "ANN": 4.06
+      }
+    },
+    "tensas": {
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.199043&latitude=31.937527&format=JSON",
+      "sha256": "7d3b1983014c51e367fa4a40613acdecbf498b77aa015bbc65329af482d38dc8",
+      "coordinates": [
+        -91.199,
+        31.938,
+        40.14
+      ],
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)",
+      "parameters": {
+        "ALLSKY_SFC_SW_DWN": {
+          "units": "kW-hr/m^2/day",
+          "longname": "All Sky Surface Shortwave Downward Irradiance"
+        },
+        "WS50M": {
+          "units": "m/s",
+          "longname": "Wind Speed at 50 Meters"
+        }
+      },
+      "solar": {
+        "JAN": 2.7727,
+        "FEB": 3.2964,
+        "MAR": 4.439,
+        "APR": 5.5793,
+        "MAY": 6.1805,
+        "JUN": 6.3679,
+        "JUL": 6.161,
+        "AUG": 5.7998,
+        "SEP": 5.154,
+        "OCT": 4.2876,
+        "NOV": 3.2765,
+        "DEC": 2.5003,
+        "ANN": 4.6567
+      },
+      "wind": {
+        "JAN": 5.4,
+        "FEB": 5.61,
+        "MAR": 5.59,
+        "APR": 5.55,
+        "MAY": 4.77,
+        "JUN": 4.14,
+        "JUL": 3.71,
+        "AUG": 3.8,
+        "SEP": 4.32,
+        "OCT": 4.77,
+        "NOV": 5.17,
+        "DEC": 5.32,
+        "ANN": 4.84
+      }
+    }
+  }
+}

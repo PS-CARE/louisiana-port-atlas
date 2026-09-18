@@ -1,0 +1,623 @@
+{
+  "checked": "2026-09-17",
+  "scope": "Search review for all 32 atlas ports. Evidence includes port, utility and economic-development web sources. This is not an exhaustive verification of every field for every port.",
+  "acceptedNewEnergyRecordIds": [
+    "iberia-ne-utilities",
+    "vermilion-site-utility",
+    "columbia-site-utility",
+    "krotz-proposed-slemco"
+  ],
+  "limitations": [
+    "No port annual electricity consumption, peak demand or renewable generation share has been inferred.",
+    "No closest or serving LMP node assigned without verified node geography and connection evidence.",
+    "2025 preliminary EIA reliability excluded from the default final-data comparison."
+  ],
+  "excludedCandidates": [
+    {
+      "portId": "ouachita",
+      "url": "https://millhavennorth.com/",
+      "reason": "Port-specific supplier remains unconfirmed. Millhaven North identifies Entergy Louisiana for its industrial park, explicitly eight miles from Ouachita Terminals; excluded as evidence of port supply."
+    },
+    {
+      "portId": "west-st-mary",
+      "url": "https://buildingsandsites.com/colab/Property/Detail/16370/Coastal-Land-Company-Site-Port-of-West-St-Mary",
+      "reason": "The Coastal Land Company site listing names CLECO but describes neighboring private property; excluded as confirmation of supply to the port."
+    }
+  ],
+  "coverage": [
+    {
+      "portId": "cameron",
+      "name": "Cameron Parish Port",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "energy-cameron-site"
+      ],
+      "sourceUrls": [
+        "https://louisianasiteselection.com/led/Property/Detail/21937/Cameron-Parish-Port-Harbor-Terminal-District"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "loop",
+      "name": "Louisiana Offshore Oil Port (LOOP)",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [],
+      "sourceUrls": [],
+      "result": "Port Fourchon land-base and regional Entergy project references do not establish supply to the offshore LOOP terminal.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "fourchon",
+      "name": "Port Fourchon",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "fourchon-energy-1"
+      ],
+      "sourceUrls": [
+        "https://www.entergy.com/news/entergy-louisiana-eco-launch-shore-power-project-reduce-emissions-for-gulf-coast-1729408408"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "baton-rouge",
+      "name": "Port of Greater Baton Rouge",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "energy-baton-gron"
+      ],
+      "sourceUrls": [
+        "https://static1.squarespace.com/static/533972c5e4b0b7f04d8f67a2/t/637c06d6f9dcb351e04c6d47/1669072598351/09-22-22%2BCommission%2BMeeting%2BMinutes.pdf"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "lake-charles",
+      "name": "Port of Lake Charles",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "lake-charles-energy-1"
+      ],
+      "sourceUrls": [
+        "https://www.entergy.com/news/entergy-providing-power-crowley-vessels-at-port-lake-charles"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "new-orleans",
+      "name": "Port of New Orleans",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "new-orleans-energy-2",
+        "energy-nola-grid"
+      ],
+      "sourceUrls": [
+        "https://portnola.com/info/news-media/press-releases/port-of-new-orleans-unveils-design-updates-to-the-louisiana-international-terminal-based-on-early-community-input",
+        "https://goentergy.com/preparing-the-way-entergys-work-on-site-prep-reaps-results-for-companies-and-communities"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "plaquemines",
+      "name": "Louisiana Gateway Port",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [],
+      "sourceUrls": [],
+      "result": "No port-specific supplier accepted from this search pass; further confirmation is needed.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "south-louisiana",
+      "name": "Port of South Louisiana",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "energy-south-la-grid"
+      ],
+      "sourceUrls": [
+        "https://portsl.com/wp-content/uploads/2025/03/2025_02_19_PortSL_Regular_Cmsn_Meeting_Minutes.pdf"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "st-bernard",
+      "name": "St. Bernard Port",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [],
+      "sourceUrls": [],
+      "result": "Electrical contractor and tenant references are not proof of the electric utility serving the port.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "manchac",
+      "name": "Port Manchac",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "manchac-energy-1"
+      ],
+      "sourceUrls": [
+        "https://louisianasiteselection.com/led/Property/Detail/2698/Port-Manchac-Industrial-Site"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "delcambre",
+      "name": "Port of Delcambre",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [],
+      "sourceUrls": [],
+      "result": "No port-specific supplier accepted from this search pass; further confirmation is needed.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "grand-isle",
+      "name": "Port of Grand Isle",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [],
+      "sourceUrls": [],
+      "result": "Regional Entergy planning evidence does not independently establish service to the port facility.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "iberia",
+      "name": "Port of Iberia",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "iberia-ne-utilities"
+      ],
+      "sourceUrls": [
+        "https://louisianasiteselection.com/led/Property/Detail/3444/Port-of-Iberia-NE-Site"
+      ],
+      "result": "Accepted alternate supplier listing for NE site only; no exclusive supplier assignment.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "mermentau",
+      "name": "Port of Mermentau",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [],
+      "sourceUrls": [],
+      "result": "No port-specific supplier accepted from this search pass; further confirmation is needed.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "morgan-city",
+      "name": "Port of Morgan City",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [],
+      "sourceUrls": [],
+      "result": "No port-specific supplier accepted from this search pass; further confirmation is needed.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "terrebonne",
+      "name": "Port of Terrebonne",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "terrebonne-energy-1"
+      ],
+      "sourceUrls": [
+        "https://louisianasiteselection.com/led/Property/Detail/2816/Port-of-Terrebonne-44-acres"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "vermilion",
+      "name": "Port of Vermilion",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "vermilion-site-utility"
+      ],
+      "sourceUrls": [
+        "https://louisianasiteselection.com/Property/Detail/4438/Port-of-Vermilion"
+      ],
+      "result": "Accepted scoped port-lot utility listing; Entergy legal entity not inferred.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "vinton",
+      "name": "Port of Vinton",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "vinton-energy-1"
+      ],
+      "sourceUrls": [
+        "https://portofvinton.com/real-estate-services/facilities/"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "west-st-mary",
+      "name": "Port of West St. Mary",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [],
+      "sourceUrls": [],
+      "result": "The Coastal Land Company site listing names CLECO but describes neighboring private property; excluded as confirmation of supply to the port.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "west-calcasieu",
+      "name": "West Calcasieu Port",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "west-calcasieu-energy-1"
+      ],
+      "sourceUrls": [
+        "https://buildingsandsites.com/swla/Property/Detail/16229/West-Cal-Port"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "central-louisiana",
+      "name": "Central Louisiana Regional Port",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [],
+      "sourceUrls": [],
+      "result": "No port-specific supplier accepted from this search pass; further confirmation is needed.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "ouachita",
+      "name": "Greater Ouachita Port",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [],
+      "sourceUrls": [],
+      "result": "Port-specific supplier remains unconfirmed. Millhaven North identifies Entergy Louisiana for its industrial park, explicitly eight miles from Ouachita Terminals; excluded as evidence of port supply.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "madison",
+      "name": "Madison Parish Port",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "madison-energy-1"
+      ],
+      "sourceUrls": [
+        "https://madisonparishport.com/utility-providers"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "natchitoches",
+      "name": "Natchitoches Parish Port",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "natchitoches-energy-1"
+      ],
+      "sourceUrls": [
+        "https://louisianasiteselection.com/led/Property/Detail/3363/Natchitoches-Parish-Port"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "avoyelles",
+      "name": "Port of Avoyelles",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "avoyelles-energy-1"
+      ],
+      "sourceUrls": [
+        "https://lacentralsites.com/industrial-site/avoyelles-parish-port-industrial-site"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "caddo-bossier",
+      "name": "Port of Caddo-Bossier",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "caddo-bossier-energy-1"
+      ],
+      "sourceUrls": [
+        "https://portcb.com/wp-content/uploads/2024/12/Minutes-of-November-18-2024-Special-Board-Meeting-Budget.-WEBSITE.pdf"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "columbia",
+      "name": "Port of Columbia",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "columbia-site-utility"
+      ],
+      "sourceUrls": [
+        "https://louisianasiteselection.com/led/property/detail/2886/port-of-columbia"
+      ],
+      "result": "Accepted electricity field from Riverton Road site listing, separate from planned on-site generation.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "krotz-springs",
+      "name": "Port of Krotz Springs",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "krotz-proposed-slemco"
+      ],
+      "sourceUrls": [
+        "https://slemco.com/commercial/builders-developers/commercial-real-estate/"
+      ],
+      "result": "Accepted prospective SLEMCO service for two undeveloped port-owned sites only.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "lake-providence",
+      "name": "Port of Lake Providence",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "lake-providence-energy-1"
+      ],
+      "sourceUrls": [
+        "https://louisianasiteselection.com/led/Property/Detail/22226/Lake-Providence-Port-Commission"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "vidalia",
+      "name": "Port of Vidalia",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [],
+      "sourceUrls": [],
+      "result": "City generation and nearby industrial-customer evidence do not independently confirm the port meter supplier.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "red-river",
+      "name": "Red River Parish Port",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [
+        "red-river-energy-1"
+      ],
+      "sourceUrls": [
+        "https://buildingsandsites.com/nlep/Property/Detail/21369/Red-River-Parish-Port-Site"
+      ],
+      "result": "Existing scoped supplier evidence retained; no additional port-specific provider accepted in this review.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    },
+    {
+      "portId": "tensas",
+      "name": "Tensas Parish Port",
+      "searchTopics": [
+        "port name + electricity utility provider",
+        "port name + utility company / electric service",
+        "port name + utility infrastructure / energy projects"
+      ],
+      "namedProviderRecordIds": [],
+      "sourceUrls": [],
+      "result": "No port-specific supplier accepted from this search pass; further confirmation is needed.",
+      "resourceRecord": true,
+      "weather": "NWS requested at runtime; availability varies",
+      "reliability": "Utility-level 2024 final EIA data; entity must match documented evidence or be explicitly selected for context",
+      "marketNodeAssignment": null
+    }
+  ]
+}

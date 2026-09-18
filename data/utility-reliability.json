@@ -1,0 +1,251 @@
+{
+  "source": "U.S. EIA Form 861",
+  "url": "https://www.eia.gov/electricity/data/eia861/zip/f8612024.zip",
+  "release": "2024 final; updated December 3, 2025",
+  "checked": "2026-09-17",
+  "workbook": "Reliability_2024.xlsx",
+  "sheet": "Reliability_States",
+  "sha256": "ac2805354a0a56663c95d7ea02e83e544c22e7ecddb2fab00e792abdeb856ad1",
+  "utilities": [
+    {
+      "utilityId": 1458,
+      "name": "Beauregard Electric Coop, Inc",
+      "state": "LA",
+      "year": 2024,
+      "standard": "Other",
+      "withMajorEvents": {
+        "saidi": 3033.6,
+        "saifi": 9.75
+      },
+      "withoutMajorEvents": {
+        "saidi": 441.6,
+        "saifi": 3.9
+      },
+      "row": 51
+    },
+    {
+      "utilityId": 3265,
+      "name": "Cleco Power LLC",
+      "state": "LA",
+      "year": 2024,
+      "standard": "Other",
+      "withMajorEvents": {
+        "saidi": 729.6,
+        "saifi": 3.1
+      },
+      "withoutMajorEvents": {
+        "saidi": 142.2,
+        "saifi": 1.73
+      },
+      "row": 109
+    },
+    {
+      "utilityId": 5202,
+      "name": "Dixie Electric Membership Corp - (LA)",
+      "state": "LA",
+      "year": 2024,
+      "standard": "IEEE",
+      "withMajorEvents": {
+        "saidi": 237.14,
+        "saifi": 4.76
+      },
+      "withoutMajorEvents": {
+        "saidi": 234.74,
+        "saifi": 2.61
+      },
+      "row": 209
+    },
+    {
+      "utilityId": 9096,
+      "name": "City of Lafayette - (LA)",
+      "state": "LA",
+      "year": 2024,
+      "standard": "IEEE",
+      "withMajorEvents": {
+        "saidi": 166.601,
+        "saifi": 1.24
+      },
+      "withoutMajorEvents": {
+        "saidi": 32.95,
+        "saifi": 0.666
+      },
+      "row": 354
+    },
+    {
+      "utilityId": 9682,
+      "name": "Jefferson Davis Elec Coop, Inc",
+      "state": "LA",
+      "year": 2024,
+      "standard": "Other",
+      "withMajorEvents": {
+        "saidi": 44.99,
+        "saifi": 5.51
+      },
+      "withoutMajorEvents": {
+        "saidi": 12.15,
+        "saifi": 1.82
+      },
+      "row": 384
+    },
+    {
+      "utilityId": 11241,
+      "name": "Entergy Louisiana LLC",
+      "state": "LA",
+      "year": 2024,
+      "standard": "IEEE",
+      "withMajorEvents": {
+        "saidi": 609.9,
+        "saifi": 2.045
+      },
+      "withoutMajorEvents": {
+        "saidi": 213.2,
+        "saifi": 1.553
+      },
+      "row": 450
+    },
+    {
+      "utilityId": 13478,
+      "name": "Entergy New Orleans, LLC",
+      "state": "LA",
+      "year": 2024,
+      "standard": "IEEE",
+      "withMajorEvents": {
+        "saidi": 586.4,
+        "saifi": 2.004
+      },
+      "withoutMajorEvents": {
+        "saidi": 179.7,
+        "saifi": 1.595
+      },
+      "row": 554
+    },
+    {
+      "utilityId": 13783,
+      "name": "Northeast Louisiana Power Coop Inc.",
+      "state": "LA",
+      "year": 2024,
+      "standard": "Other",
+      "withMajorEvents": {
+        "saidi": 4.117,
+        "saifi": 2.6
+      },
+      "withoutMajorEvents": {
+        "saidi": 3.27,
+        "saifi": 2.132
+      },
+      "row": 585
+    },
+    {
+      "utilityId": 14424,
+      "name": "Panola-Harrison Elec Coop, Inc",
+      "state": "LA",
+      "year": 2024,
+      "standard": "Other",
+      "withMajorEvents": {
+        "saidi": 39.69,
+        "saifi": 0.119
+      },
+      "withoutMajorEvents": {
+        "saidi": null,
+        "saifi": null
+      },
+      "row": 631
+    },
+    {
+      "utilityId": 15175,
+      "name": "Pointe Coupee Elec Member Corp",
+      "state": "LA",
+      "year": 2024,
+      "standard": "Other",
+      "withMajorEvents": {
+        "saidi": 3.45,
+        "saifi": 0.02
+      },
+      "withoutMajorEvents": {
+        "saidi": null,
+        "saifi": null
+      },
+      "row": 659
+    },
+    {
+      "utilityId": 16463,
+      "name": "City of Ruston - (LA)",
+      "state": "LA",
+      "year": 2024,
+      "standard": "IEEE",
+      "withMajorEvents": {
+        "saidi": 206.5,
+        "saifi": 1.96
+      },
+      "withoutMajorEvents": {
+        "saidi": null,
+        "saifi": null
+      },
+      "row": 713
+    },
+    {
+      "utilityId": 17565,
+      "name": "South Louisiana Elec Coop Assn",
+      "state": "LA",
+      "year": 2024,
+      "standard": "Other",
+      "withMajorEvents": {
+        "saidi": 4157.046,
+        "saifi": 4.293
+      },
+      "withoutMajorEvents": {
+        "saidi": 240.594,
+        "saifi": 2.748
+      },
+      "row": 760
+    },
+    {
+      "utilityId": 17684,
+      "name": "Southwest Louisiana E M C",
+      "state": "LA",
+      "year": 2024,
+      "standard": "Other",
+      "withMajorEvents": {
+        "saidi": 985.426,
+        "saifi": 4.61
+      },
+      "withoutMajorEvents": {
+        "saidi": 167.172,
+        "saifi": 2.11
+      },
+      "row": 773
+    },
+    {
+      "utilityId": 17698,
+      "name": "Southwestern Electric Power Co",
+      "state": "LA",
+      "year": 2024,
+      "standard": "IEEE",
+      "withMajorEvents": {
+        "saidi": 983.8,
+        "saifi": 2.787
+      },
+      "withoutMajorEvents": {
+        "saidi": 320.1,
+        "saifi": 1.876
+      },
+      "row": 777
+    },
+    {
+      "utilityId": 21567,
+      "name": "Washington-St Tammany E C, Inc",
+      "state": "LA",
+      "year": 2024,
+      "standard": "IEEE",
+      "withMajorEvents": {
+        "saidi": 1507.55,
+        "saifi": 4.93
+      },
+      "withoutMajorEvents": {
+        "saidi": 241.88,
+        "saifi": 2.61
+      },
+      "row": 924
+    }
+  ]
+}
