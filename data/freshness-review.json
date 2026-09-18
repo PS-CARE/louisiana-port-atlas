@@ -1,0 +1,373 @@
+{
+  "reviewed": "2026-09-17",
+  "method": "Primary port and state publications; reporting period kept separate from publication metadata. Source-backed means checked against the cited document, not independent certification of the underlying operations.",
+  "acceptedRecords": 17,
+  "portsWithUpdates": 14,
+  "sources": [
+    "recent-south-2025",
+    "recent-south-2026",
+    "recent-nola-container-2025",
+    "recent-nola-budget-2026",
+    "recent-fastsites-2026",
+    "recent-grand-isle-2025",
+    "recent-grand-isle-grant-2026",
+    "recent-iberia-yard-2026",
+    "recent-gateway-name-2026",
+    "recent-lake-charles-loader-2025",
+    "recent-terrebonne-certified-2025",
+    "recent-st-bernard-slip-2025",
+    "recent-morgan-city-2026"
+  ],
+  "pdfChecks": [
+    {
+      "file": "south-2025.pdf",
+      "sha256": "66762579e115333824a5f268271e25c266d216474c7ca271a2264ae5cc81a7ad",
+      "visualPage": 3
+    },
+    {
+      "file": "south-2026.pdf",
+      "sha256": "993300c751cd1517dce22873fddaf2f4743027c771e010c63efe24174e684987",
+      "visualPage": 3
+    },
+    {
+      "file": "nola-budget.pdf",
+      "sha256": "bace422a8889de1f10438767575e3e79bc7cfc193f58753022d4fd85d1a522fa",
+      "visualPage": 5
+    }
+  ],
+  "exclusions": [
+    {
+      "source": "recent-south-2026",
+      "reason": "Vessel/barge table on PDF page 3 labels years 2024/2025 under a Q1 2025/2026 throughput table. Excluded those counts."
+    },
+    {
+      "source": "recent-south-2025",
+      "reason": "Published rounded category totals can differ from their components by one short ton. Use the stated total, not a recomputed value."
+    },
+    {
+      "url": "https://www.stbernardport.com/news/st-bernard-port-harbor-and-terminal-district-year-in-review-2025",
+      "reason": "2025 review has a conflicting February 2025 body dateline and February 2026 news-index date. Cargo total excluded pending clarification; separate unambiguous rehabilitation release accepted."
+    },
+    {
+      "url": "https://www.portofiberia.com/2025/10/15/e-crane-christens-creole-king/",
+      "reason": "Electric crane handover does not establish port-owned equipment or power consumption. The article says the crane is intended for Midwest grain handling."
+    },
+    {
+      "source": "recent-nola-budget-2026",
+      "reason": "Utilities are a consolidated expense category. No conversion to electricity kWh, demand, renewable share or port-only consumption."
+    },
+    {
+      "source": "recent-fastsites-2026",
+      "reason": "Selected sites are not completed facilities. No per-site award amounts or completed utility upgrades inferred."
+    },
+    {
+      "port": "cameron",
+      "url": "https://cameronparishport.com/2025/",
+      "reason": "Dated announcements found, but no new port-wide energy measurement accepted."
+    },
+    {
+      "port": "loop",
+      "url": "https://www.loopllc.com/api/document/view/20",
+      "reason": "June 2025 operational booklet surfaced; vessel operating requirements do not establish terminal electricity consumption."
+    },
+    {
+      "port": "mermentau",
+      "reason": "Agenda search results do not establish awards or operating results; no new metric accepted."
+    },
+    {
+      "port": "fourchon",
+      "url": "https://www.portfourchon.com/about-glpc/depth-readings",
+      "reason": "2026 location-specific surveys available; no single current port-wide depth inferred."
+    },
+    {
+      "port": "madison",
+      "url": "https://madisonparishport.com/news",
+      "reason": "Regional industrial investment is not evidence of port-owned electricity demand."
+    }
+  ],
+  "coverage": [
+    {
+      "port": "cameron",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "loop",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "fourchon",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "baton-rouge",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "lake-charles",
+      "acceptedUpdateIds": [
+        "lake-charles-loader-2025"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "new-orleans",
+      "acceptedUpdateIds": [
+        "nola-utility-budget-2026",
+        "nola-container-2025"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "plaquemines",
+      "acceptedUpdateIds": [
+        "gateway-name-2025"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "south-louisiana",
+      "acceptedUpdateIds": [
+        "south-quarter-2026",
+        "south-annual-2025"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "st-bernard",
+      "acceptedUpdateIds": [
+        "st-bernard-slip-2025"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "manchac",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "delcambre",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "grand-isle",
+      "acceptedUpdateIds": [
+        "grand-isle-grant-2026",
+        "grand-isle-repairs-2025"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "iberia",
+      "acceptedUpdateIds": [
+        "iberia-yard-2026"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "mermentau",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "morgan-city",
+      "acceptedUpdateIds": [
+        "morgan-city-west-dock-2026"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "terrebonne",
+      "acceptedUpdateIds": [
+        "terrebonne-certified-2025"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "vermilion",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "vinton",
+      "acceptedUpdateIds": [
+        "vinton-fastsites-2026"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "west-st-mary",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "west-calcasieu",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "central-louisiana",
+      "acceptedUpdateIds": [
+        "central-louisiana-fastsites-2026"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "ouachita",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "madison",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "natchitoches",
+      "acceptedUpdateIds": [
+        "natchitoches-fastsites-2026"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "avoyelles",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "caddo-bossier",
+      "acceptedUpdateIds": [
+        "caddo-bossier-fastsites-2026"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "columbia",
+      "acceptedUpdateIds": [
+        "columbia-fastsites-2026"
+      ],
+      "note": "New records supplement historical facts; other fields retain their original dates."
+    },
+    {
+      "port": "krotz-springs",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "lake-providence",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "vidalia",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "red-river",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    },
+    {
+      "port": "tensas",
+      "acceptedUpdateIds": [],
+      "note": "No new record accepted in this refresh. This does not establish absence of newer publications."
+    }
+  ],
+  "retrievals": [
+    {
+      "sourceId": "recent-south-2025",
+      "url": "https://portsl.com/wp-content/uploads/2026/02/2025_FourthQuarter_PortSL_Tonnage_Stats.pdf",
+      "bytes": 2410337,
+      "sha256": "66762579e115333824a5f268271e25c266d216474c7ca271a2264ae5cc81a7ad",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "sourceId": "recent-south-2026",
+      "url": "https://portsl.com/wp-content/uploads/2026/05/2026_FirstQuarter_PortSL_Tonnage_Stats.pdf",
+      "bytes": 2306625,
+      "sha256": "993300c751cd1517dce22873fddaf2f4743027c771e010c63efe24174e684987",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "sourceId": "recent-nola-container-2025",
+      "url": "https://portnola.com/info/news-media/press-releases/port-of-new-orleans-cargo-volumes-continue-to-climb-in-first-half-of-2025-driven-by-latin-american-trade-growth-and-improved-reliability",
+      "bytes": 40712,
+      "sha256": "81653b1eda78bba74a1474e11e027c8cbc3ef4971d7c3e656617eb586f720709",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "sourceId": "recent-nola-budget-2026",
+      "url": "https://portnola.com/assets/pdf/FY2026-compressed.pdf",
+      "bytes": 1073931,
+      "sha256": "bace422a8889de1f10438767575e3e79bc7cfc193f58753022d4fd85d1a522fa",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "sourceId": "recent-fastsites-2026",
+      "url": "https://www.opportunitylouisiana.gov/news/louisiana-selects-19-fastsites-in-historic-state-investment",
+      "bytes": 243321,
+      "sha256": "b7b3996ac8ad43af32489ca5434bba942082f3e82b44eafe8d20230b8d3b31a3",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "sourceId": "recent-grand-isle-2025",
+      "url": "https://grandisleport.com/2025-state-of-the-port/",
+      "bytes": 182662,
+      "sha256": "18f10f54c5b088ca0b777230bafb3e0e1de4478ea9a8d90e7779eeb09f60a0c9",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "sourceId": "recent-grand-isle-grant-2026",
+      "url": "https://grandisleport.com/grand-isle-port-commission-awarded-historic-2-7-million-hud-grant-for-port-infrastructure-improvements/",
+      "bytes": 182445,
+      "sha256": "67a357cb5f4d660b2dec57e83f5aa95fe196cdcadb9fb9d66f3eb828e7eb2746",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "sourceId": "recent-iberia-yard-2026",
+      "url": "https://www.portofiberia.com/2026/05/01/cajun-industries-yard-completed/",
+      "bytes": 162506,
+      "sha256": "2ace7ee36cc1f324fe8e4d25bd418910111247d65ca43a2a0b2f32e316cdafd3",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "sourceId": "recent-gateway-name-2026",
+      "url": "https://www.louisianagatewayport.com/blog/why-plaquemines-port-became-louisiana-gateway-port",
+      "bytes": 100740,
+      "sha256": "b3b826cd7a243eed9fabe60006a185f970076e039b15b46ea22e17bae2d61f3c",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "sourceId": "recent-lake-charles-loader-2025",
+      "url": "https://portlc.com/news/louisianas-port-of-lake-charles-retains-top-10-u-s-ranking/",
+      "bytes": 255292,
+      "sha256": "71acfcf1109cf759d287d420a555912db12609e0c030280b7d6c92f2d1c78ddd",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "sourceId": "recent-terrebonne-certified-2025",
+      "url": "https://terrebonneport.com/led-certified-site-designation/",
+      "retrievalError": "HTTP Error 403: Forbidden",
+      "note": "Primary content previously inspected through web retrieval."
+    },
+    {
+      "sourceId": "recent-st-bernard-slip-2025",
+      "url": "https://www.stbernardport.com/news/st-bernard-port-celebrates-dedication-of-chalmette-slip-rehabilitation-project",
+      "bytes": 257666,
+      "sha256": "f25f597646e986da4ba58a65af4c59cf010e7e57e359aa6f01a30f143940017f",
+      "retrieved": "2026-09-17"
+    },
+    {
+      "sourceId": "recent-morgan-city-2026",
+      "url": "https://portofmc.com/annual-message-to-stakeholders-for-the-year-2025/",
+      "bytes": 149214,
+      "sha256": "8791867f1fc474ec3060d81d54916bb65c6eec0e73f6bfe6a7d8699ea06cb48f",
+      "retrieved": "2026-09-17"
+    }
+  ]
+}
