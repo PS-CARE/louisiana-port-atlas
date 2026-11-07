@@ -1,0 +1,2767 @@
+{
+  "edition": "2.4.0",
+  "finalized": "2026-11-06",
+  "sourceCheckDates": [
+    "2026-10-29",
+    "2026-11-05",
+    "2026-11-06"
+  ],
+  "scope": "Published-source authenticity and consistency review, with retained-source exceptions. Check dates do not replace reporting dates.",
+  "counts": {
+    "ports": 32,
+    "sourceRegisterEntries": 89,
+    "historicalFacts": 306,
+    "serviceLabels": 147,
+    "cargoRecords": 11,
+    "cargoValues": 66,
+    "dockCoordinates": 20,
+    "reportingAreaGeometries": 15,
+    "energyRecords": 28,
+    "portsWithEnergyRecords": 21,
+    "portsWithProviderEvidence": 20,
+    "publishedUpdates": 17,
+    "portsWithUpdates": 14,
+    "nasaValues": 832,
+    "revisedSolarCells": 265,
+    "eiaEntities": 15,
+    "eiaCells": 60,
+    "eiaMissingCells": 6
+  },
+  "corrections": [
+    {
+      "topic": "Name",
+      "change": "Port of Vermilion (Abbeville), with officialName Port of Vermilion and search aliases. No recent rebranding or formal former-name claim.",
+      "source": "https://abbevilleharbor.com/port-of-vermilion/"
+    },
+    {
+      "topic": "Summary provenance",
+      "change": "All32 summaries now have explicit supporting citations; added4 official port pages and linked existing project documents where needed. Narrowed Lake Charles, Vermilion and Columbia wording."
+    },
+    {
+      "portId": "cameron",
+      "recordId": "energy-cameron-site",
+      "field": "period",
+      "old": "Listing updated July 20, 2026",
+      "new": "Listing updated September 21, 2026",
+      "sourceId": "energy-cameron-site"
+    },
+    {
+      "portId": "iberia",
+      "recordId": "iberia-ne-utilities",
+      "field": "period",
+      "old": "Listing updated June 23, 2026",
+      "new": "Listing updated August 27, 2026",
+      "sourceId": "led-iberia-ne-2026"
+    },
+    {
+      "portId": "columbia",
+      "recordId": "columbia-site-utility",
+      "field": "period",
+      "old": "Listing updated May 2, 2026",
+      "new": "Listing updated September 3, 2026",
+      "sourceId": "led-columbia-2026"
+    },
+    {
+      "portId": "krotz-springs",
+      "recordId": "krotz-proposed-slemco",
+      "field": "title",
+      "old": "SLEMCO — documented site service",
+      "new": "SLEMCO — prospective site availability",
+      "sourceId": "slemco-krotz-sites"
+    },
+    {
+      "topic": "Reliability",
+      "change": "Replaced2024 current extract with2025 final EIA release; all60 cells reconciled, including6 missing cells. Kept2024 as a clearly named archive."
+    },
+    {
+      "topic": "NASA provenance",
+      "change": "Pinned all32 requests to start=2001/end=2020 after discovering API default-period drift. Adopted832 explicitly scoped values;265 solar cells differ by0.0001-0.0002 kWh/m²/day. Wind values and resource ranks unchanged."
+    },
+    {
+      "topic": "Source availability",
+      "change": "Repaired NASA methodology URL; surfaced restricted/unavailable historical source status and kept HTTP checks distinct from claim verification."
+    },
+    {
+      "topic": "Live display",
+      "change": "Guarded missing values and units; aged NWS and MISO timestamps on an in-page clock, preserved unknowns, and clarified forecast precipitation and external AIS limits."
+    }
+  ],
+  "limitations": [
+    "This is reconciliation to published sources, not independent certification or field verification. A matching source may be erroneous or stale.",
+    "Historical facility fields remain the self-reported, unaudited May-June 2023 survey published in the 2024 LLA report. Cargo comparisons remain CY2023; boundary source years remain 2019-2021.",
+    "Three primary coordinate documents (Tensas, Vidalia and the Vinton LED PDF) restricted fresh downloads with HTTP403. Previously retained evidence remains explicitly historical or proposed where applicable.",
+    "Cameron and Ouachita Census address-interpolation results changed by less than/about a meter on fresh query. The dated September approximate snapshots are retained; neither is a surveyed terminal entrance.",
+    "ECO historical claims rely on a retained authentic PDF; its original URL returned404. Digital Lumens historical vendor comparison relies on the indexed primary case study; its original URL was unavailable (410/403). No independent savings measurement was obtained.",
+    "A site utility listing, an alternative provider list or a proposed connection does not identify every terminal meter or prove exclusive port-wide service.",
+    "Annual port electricity use, peak demand, renewable share and backup capacity remain unknown; no substitute values were generated.",
+    "NASA is a gridded 2001-2020 resource climatology. Rankings are within this 32-point dataset, not solar/wind feasibility scores.",
+    "EIA reliability describes utility-state reporting populations in2025, not individual port outages; IEEE and other-method values require care in comparison.",
+    "Weather and MISO are requested external feeds with source timestamps and manual refresh; retrieval success does not establish continuous live availability. No serving/nearest electricity node assignment was verified.",
+    "The optional AIS iframe is third-party content. Successful vessel rendering remains unverified; no verified arrivals, departures or counts are calculated.",
+    "Authored application/data/configuration/documentation were reviewed. Third-party dependency source code was not line-by-line audited. No public GitHub deployment was verified."
+  ],
+  "perPort": [
+    {
+      "portId": "cameron",
+      "name": "Cameron Parish Port",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 4,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 9
+        }
+      ],
+      "locationSourceId": "census-cameron",
+      "locationScope": "Approximate Census address-range location for the published contact address. Not a surveyed facility, entrance or verified current office. See the 2024 profile for the address.",
+      "energyRecordReviews": [
+        {
+          "portId": "cameron",
+          "recordId": "energy-cameron-site",
+          "type": "energy",
+          "sourceId": "energy-cameron-site",
+          "url": "https://louisianasiteselection.com/led/Property/Detail/21937/Cameron-Parish-Port-Harbor-Terminal-District",
+          "outcome": "Refresh date",
+          "finding": "Provider Jeff Davis Electric matches property 21937. Saved current page says last updated September 21, 2026, replacing July 20. Does not establish every district meter."
+        }
+      ],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "loop",
+      "name": "Louisiana Offshore Oil Port (LOOP)",
+      "historicalFactsReconciled": 1,
+      "serviceLabelsReconciled": 7,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 11
+        }
+      ],
+      "locationSourceId": "noaa-loop",
+      "locationScope": "Offshore station reference, separate from LOOP’s onshore administration and storage facilities. Not a navigation waypoint.",
+      "energyRecordReviews": [],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "fourchon",
+      "name": "Port Fourchon",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 7,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 12
+        }
+      ],
+      "locationSourceId": "dock-0yvu",
+      "locationScope": "USACE facility 0YVU. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "fourchon",
+          "recordId": "fourchon-energy-1",
+          "type": "energy",
+          "sourceId": "energy-fourchon",
+          "url": "https://www.entergy.com/news/entergy-louisiana-eco-launch-shore-power-project-reduce-emissions-for-gulf-coast-1729408408",
+          "outcome": "Supported",
+          "finding": "Entergy primary release dated March 10, 2020 reports initial simultaneous service for ten ECO vessels. Launch-period figure, not a current port-wide connection count."
+        },
+        {
+          "portId": "fourchon",
+          "recordId": "fourchon-energy-2",
+          "type": "energy",
+          "sourceId": "energy-eco",
+          "url": "https://chouest.com/downloads/2024-eco-sustainability-report.pdf",
+          "outcome": "Historical; URL unavailable",
+          "finding": "Retained original 22-page ECO 2024 PDF supports metering trials on PDF page 5, with Fourchon context on page 9. Original publisher link now returns 404; no verified replacement found."
+        }
+      ],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "baton-rouge",
+      "name": "Port of Greater Baton Rouge",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 6,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 14
+        }
+      ],
+      "locationSourceId": "dock-0spy",
+      "locationScope": "USACE facility 0SPY. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "baton-rouge",
+          "recordId": "energy-baton-gron",
+          "type": "energy",
+          "sourceId": "energy-baton-gron",
+          "url": "https://static1.squarespace.com/static/533972c5e4b0b7f04d8f67a2/t/637c06d6f9dcb351e04c6d47/1669072598351/09-22-22%2BCommission%2BMeeting%2BMinutes.pdf",
+          "outcome": "Supported",
+          "finding": "September 22, 2022 minutes PDF page 2 approve 2.71-acre lease addition for receiving/distributing Entergy offsite power. This is approval, not a constructed substation."
+        }
+      ],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "lake-charles",
+      "name": "Port of Lake Charles",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 8,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 16
+        }
+      ],
+      "locationSourceId": "dock-0shr",
+      "locationScope": "USACE facility 0SHR. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "lake-charles",
+          "recordId": "lake-charles-energy-1",
+          "type": "energy",
+          "sourceId": "energy-lake-charles",
+          "url": "https://www.entergy.com/news/entergy-providing-power-crowley-vessels-at-port-lake-charles",
+          "outcome": "Supported",
+          "finding": "Entergy October 14, 2022 release reports completed installation initially serving four ocean-class Crowley tugs. No present port-wide capacity inferred."
+        }
+      ],
+      "publishedUpdateReviews": [
+        {
+          "portId": "lake-charles",
+          "recordId": "lake-charles-loader-2025",
+          "type": "update",
+          "sourceId": "recent-lake-charles-loader-2025",
+          "url": "https://portlc.com/news/louisianas-port-of-lake-charles-retains-top-10-u-s-ranking/",
+          "outcome": "Supported with existing status limit",
+          "finding": "July 29, 2025 port announcement says second BT1 loader added, USD 14 million investment; text also says when operational. Keep Installation reported, not operational throughput or commissioned capacity."
+        }
+      ]
+    },
+    {
+      "portId": "new-orleans",
+      "name": "Port of New Orleans",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 7,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 18
+        }
+      ],
+      "locationSourceId": "map-new-orleans",
+      "locationScope": "Reference published in the official website map. Contact maps can represent administration or a map center rather than a berth; not suitable for navigation.",
+      "energyRecordReviews": [
+        {
+          "portId": "new-orleans",
+          "recordId": "new-orleans-energy-1",
+          "type": "energy",
+          "sourceId": "energy-nola-solar",
+          "url": "https://portnola.com/assets/pdf/Port-NOLAs-Green-Supply-Chain-Report-July-2022.pdf",
+          "outcome": "Supported",
+          "finding": "July 2022 Green Supply Chain report PDF page 36 says 47 solar-powered switches installed, one pending. NOPB-system scope and historical status correct."
+        },
+        {
+          "portId": "new-orleans",
+          "recordId": "new-orleans-energy-2",
+          "type": "energy",
+          "sourceId": "energy-nola-lit",
+          "url": "https://portnola.com/info/news-media/press-releases/port-of-new-orleans-unveils-design-updates-to-the-louisiana-international-terminal-based-on-early-community-input",
+          "outcome": "Supported",
+          "finding": "October 27, 2022 Port NOLA design announcement includes Entergy Louisiana substation, shore power and mostly electric fleet; atlas correctly preserves proposed-design status."
+        },
+        {
+          "portId": "new-orleans",
+          "recordId": "energy-nola-grid",
+          "type": "energy",
+          "sourceId": "energy-nola-grid",
+          "url": "https://goentergy.com/preparing-the-way-entergys-work-on-site-prep-reaps-results-for-companies-and-communities",
+          "outcome": "Supported",
+          "finding": "Entergy business-development article August 16, 2021, originally May 2021, explicitly identifies Entergy New Orleans underground automatic-transfer loop at Napoleon Intermodal Terminal and two cranes."
+        },
+        {
+          "portId": "new-orleans",
+          "recordId": "energy-nola-lighting",
+          "type": "energy",
+          "sourceId": "energy-nola-lighting",
+          "url": "https://digitallumens.com/our-world/success/nocs/",
+          "outcome": "Historical; URL unavailable",
+          "finding": "Search-indexed primary vendor page matches 60% and more than 245,764 kWh/year against the alternative six-lamp T5 design for a 142,000-square-foot NOCS warehouse. Direct publisher URL returned 410 in root check, 403 in child check. No verified live replacement found. Not independently remeasured savings."
+        }
+      ],
+      "publishedUpdateReviews": [
+        {
+          "portId": "new-orleans",
+          "recordId": "nola-utility-budget-2026",
+          "type": "update",
+          "sourceId": "recent-nola-budget-2026",
+          "url": "https://portnola.com/assets/pdf/FY2026-compressed.pdf",
+          "outcome": "Supported",
+          "finding": "FY2026 consolidated operating-plan PDF page 5 gives Utilities 4,608 in thousands of dollars: USD 4,608,000. Budget, port plus railroad, not electricity-only expense or kWh. Hash matches original freshness register."
+        },
+        {
+          "portId": "new-orleans",
+          "recordId": "nola-container-2025",
+          "type": "update",
+          "sourceId": "recent-nola-container-2025",
+          "url": "https://portnola.com/info/news-media/press-releases/port-of-new-orleans-cargo-volumes-continue-to-climb-in-first-half-of-2025-driven-by-latin-american-trade-growth-and-improved-reliability",
+          "outcome": "Supported",
+          "finding": "Port NOLA August 19, 2025 release reports H1 2025 263,961 TEU versus H1 2024 258,758. Correct half-year/container scope."
+        }
+      ]
+    },
+    {
+      "portId": "plaquemines",
+      "name": "Louisiana Gateway Port",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 3,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 20
+        }
+      ],
+      "locationSourceId": "dock-0xa3",
+      "locationScope": "USACE facility 0XA3. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [],
+      "publishedUpdateReviews": [
+        {
+          "portId": "plaquemines",
+          "recordId": "gateway-name-2025",
+          "type": "update",
+          "sourceId": "recent-gateway-name-2026",
+          "url": "https://www.louisianagatewayport.com/blog/why-plaquemines-port-became-louisiana-gateway-port",
+          "outcome": "Supported",
+          "finding": "Official blog says DBA identity changed in 2025; footer explicitly Published Jan 6, 2026. Underlying Plaquemines district remains. Year-end asOf is period-end convention, not exact name-change day."
+        }
+      ]
+    },
+    {
+      "portId": "south-louisiana",
+      "name": "Port of South Louisiana",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 5,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 22
+        }
+      ],
+      "locationSourceId": "dock-0u1z",
+      "locationScope": "USACE facility 0U1Z. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "south-louisiana",
+          "recordId": "energy-south-la-grid",
+          "type": "energy",
+          "sourceId": "energy-south-la-grid",
+          "url": "https://portsl.com/wp-content/uploads/2025/03/2025_02_19_PortSL_Regular_Cmsn_Meeting_Minutes.pdf",
+          "outcome": "Supported",
+          "finding": "February 19, 2025 commission minutes PDF page 5 authorize Entergy Louisiana right-of-way/servitude at St. James Westbank. Atlas does not mistake it for energized service."
+        }
+      ],
+      "publishedUpdateReviews": [
+        {
+          "portId": "south-louisiana",
+          "recordId": "south-quarter-2026",
+          "type": "update",
+          "sourceId": "recent-south-2026",
+          "url": "https://portsl.com/wp-content/uploads/2026/05/2026_FirstQuarter_PortSL_Tonnage_Stats.pdf",
+          "outcome": "Supported",
+          "finding": "Fresh PDF page 3 reports Q1 2026 62,652,867 and revised Q1 2025 60,446,602 short tons. Vessel/barge subtable has inconsistent years and is correctly excluded. Hash matches original freshness register."
+        },
+        {
+          "portId": "south-louisiana",
+          "recordId": "south-annual-2025",
+          "type": "update",
+          "sourceId": "recent-south-2025",
+          "url": "https://portsl.com/wp-content/uploads/2026/02/2025_FourthQuarter_PortSL_Tonnage_Stats.pdf",
+          "outcome": "Supported",
+          "finding": "Fresh PDF page 3 reports CY2025 248,253,326 and CY2024 251,414,191 short tons. Download hash matches original freshness register. Do not combine this series with USACE common-year figures."
+        }
+      ]
+    },
+    {
+      "portId": "st-bernard",
+      "name": "St. Bernard Port",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 6,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 24
+        },
+        {
+          "sourceId": "summary-st-bernard"
+        }
+      ],
+      "locationSourceId": "dock-0sfy",
+      "locationScope": "USACE facility 0SFY. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [],
+      "publishedUpdateReviews": [
+        {
+          "portId": "st-bernard",
+          "recordId": "st-bernard-slip-2025",
+          "type": "update",
+          "sourceId": "recent-st-bernard-slip-2025",
+          "url": "https://www.stbernardport.com/news/st-bernard-port-celebrates-dedication-of-chalmette-slip-rehabilitation-project",
+          "outcome": "Supported",
+          "finding": "Official rehabilitation page confirms May 14 dedication, completed sections A/F and all berths active. Port news index independently dates article July 1, 2025."
+        }
+      ]
+    },
+    {
+      "portId": "manchac",
+      "name": "Port Manchac",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 7,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 27
+        }
+      ],
+      "locationSourceId": "dock-0x2v",
+      "locationScope": "USACE facility 0X2V. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "manchac",
+          "recordId": "manchac-energy-1",
+          "type": "energy",
+          "sourceId": "energy-manchac",
+          "url": "https://louisianasiteselection.com/led/Property/Detail/2698/Port-Manchac-Industrial-Site",
+          "outcome": "Supported",
+          "finding": "LED property 2698 names Entergy. The specific property, generic supplier brand, and absence of meter/capacity evidence are preserved."
+        }
+      ],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "delcambre",
+      "name": "Port of Delcambre",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 8,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 29
+        },
+        {
+          "sourceId": "summary-delcambre"
+        }
+      ],
+      "locationSourceId": "map-delcambre",
+      "locationScope": "Reference published in the official website map. Contact maps can represent administration or a map center rather than a berth; not suitable for navigation.",
+      "energyRecordReviews": [
+        {
+          "portId": "delcambre",
+          "recordId": "delcambre-energy-1",
+          "type": "energy",
+          "sourceId": "energy-delcambre",
+          "url": "https://portofdelcambre.com/marina/",
+          "outcome": "Supported",
+          "finding": "Official marina page lists electricity as a North Pier amenity; provider and consumption are not stated."
+        }
+      ],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "grand-isle",
+      "name": "Port of Grand Isle",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 3,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 31
+        }
+      ],
+      "locationSourceId": "map-grand-isle",
+      "locationScope": "Reference published in the official website map. Contact maps can represent administration or a map center rather than a berth; not suitable for navigation.",
+      "energyRecordReviews": [],
+      "publishedUpdateReviews": [
+        {
+          "portId": "grand-isle",
+          "recordId": "grand-isle-grant-2026",
+          "type": "update",
+          "sourceId": "recent-grand-isle-grant-2026",
+          "url": "https://grandisleport.com/grand-isle-port-commission-awarded-historic-2-7-million-hud-grant-for-port-infrastructure-improvements/",
+          "outcome": "Supported",
+          "finding": "July 17, 2026 port release reports USD 2.7 million HUD EDI-CPF award for Oak Lane Dock and Shrimp Dock. Award does not prove expenditure or completed construction."
+        },
+        {
+          "portId": "grand-isle",
+          "recordId": "grand-isle-repairs-2025",
+          "type": "update",
+          "sourceId": "recent-grand-isle-2025",
+          "url": "https://grandisleport.com/2025-state-of-the-port/",
+          "outcome": "Supported",
+          "finding": "Official 2025 State of Port review reports completed Bayou Rigaud pier/bulkhead repairs and USD 4.3 million investment. Page February 19, 2026; statement dated January 13, 2026. These publication dates are preserved in source metadata."
+        }
+      ]
+    },
+    {
+      "portId": "iberia",
+      "name": "Port of Iberia",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 7,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 33
+        }
+      ],
+      "locationSourceId": "dock-0zw8",
+      "locationScope": "USACE facility 0ZW8. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "iberia",
+          "recordId": "iberia-energy-1",
+          "type": "energy",
+          "sourceId": "energy-iberia",
+          "url": "https://www.portofiberia.com/overview/",
+          "outcome": "Supported",
+          "finding": "Official overview lists electric power at the Public Dock Facility. No provider, capacity or annual consumption asserted."
+        },
+        {
+          "portId": "iberia",
+          "recordId": "iberia-ne-utilities",
+          "type": "energy",
+          "sourceId": "led-iberia-ne-2026",
+          "url": "https://louisianasiteselection.com/led/Property/Detail/3444/Port-of-Iberia-NE-Site",
+          "outcome": "Refresh date",
+          "finding": "LED property 3444 names CLECO or Entergy. Saved current page updated August 27, 2026, replacing June 23. Supplier alternatives must remain alternatives."
+        }
+      ],
+      "publishedUpdateReviews": [
+        {
+          "portId": "iberia",
+          "recordId": "iberia-yard-2026",
+          "type": "update",
+          "sourceId": "recent-iberia-yard-2026",
+          "url": "https://www.portofiberia.com/2026/05/01/cajun-industries-yard-completed/",
+          "outcome": "Supported",
+          "finding": "Official May 1, 2026 completion article states Cajun Industries module assembly yard is open for business."
+        }
+      ]
+    },
+    {
+      "portId": "mermentau",
+      "name": "Port of Mermentau",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 1,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 35
+        }
+      ],
+      "locationSourceId": "dock-0wmp",
+      "locationScope": "USACE facility 0WMP. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "morgan-city",
+      "name": "Port of Morgan City",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 6,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 37
+        }
+      ],
+      "locationSourceId": "dock-0zne",
+      "locationScope": "USACE facility 0ZNE. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [],
+      "publishedUpdateReviews": [
+        {
+          "portId": "morgan-city",
+          "recordId": "morgan-city-west-dock-2026",
+          "type": "update",
+          "sourceId": "recent-morgan-city-2026",
+          "url": "https://portofmc.com/annual-message-to-stakeholders-for-the-year-2025/",
+          "outcome": "Supported",
+          "finding": "February 18, 2026 annual message gives USD 10 million PIDP grant and late-summer-2027 expected completion. Atlas correctly marks forecast and award."
+        }
+      ]
+    },
+    {
+      "portId": "terrebonne",
+      "name": "Port of Terrebonne",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 5,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 39
+        }
+      ],
+      "locationSourceId": "dock-0zy1",
+      "locationScope": "USACE facility 0ZY1. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "terrebonne",
+          "recordId": "terrebonne-energy-1",
+          "type": "energy",
+          "sourceId": "energy-terrebonne",
+          "url": "https://louisianasiteselection.com/led/Property/Detail/2816/Port-of-Terrebonne-44-acres",
+          "outcome": "Supported",
+          "finding": "LED property 2816 names Entergy for the 44-acre property, not all port facilities."
+        }
+      ],
+      "publishedUpdateReviews": [
+        {
+          "portId": "terrebonne",
+          "recordId": "terrebonne-certified-2025",
+          "type": "update",
+          "sourceId": "recent-terrebonne-certified-2025",
+          "url": "https://terrebonneport.com/led-certified-site-designation/",
+          "outcome": "Supported",
+          "finding": "Official February 19, 2025 article announces LED Certified Site designation. Browser search retrieval succeeds despite direct 403. No electrical rating inferred."
+        }
+      ]
+    },
+    {
+      "portId": "vermilion",
+      "name": "Port of Vermilion (Abbeville)",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 6,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 41
+        },
+        {
+          "sourceId": "vermilion-official-name"
+        }
+      ],
+      "locationSourceId": "dock-0ynx",
+      "locationScope": "USACE facility 0YNX. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "vermilion",
+          "recordId": "vermilion-site-utility",
+          "type": "energy",
+          "sourceId": "led-vermilion-2026",
+          "url": "https://louisianasiteselection.com/Property/Detail/4438/Port-of-Vermilion",
+          "outcome": "Supported",
+          "finding": "LED property 4438 lists Entergy for advertised lots; last-updated August 11, 2026 matches. No capacity/consumption inferred."
+        }
+      ],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "vinton",
+      "name": "Port of Vinton",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 4,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 43
+        }
+      ],
+      "locationSourceId": "vinton-led",
+      "locationScope": "Historical LED industrial-site reference, not the port office, a berth or a driving entrance. Current property availability is not asserted.",
+      "energyRecordReviews": [
+        {
+          "portId": "vinton",
+          "recordId": "vinton-energy-1",
+          "type": "energy",
+          "sourceId": "energy-vinton",
+          "url": "https://portofvinton.com/real-estate-services/facilities/",
+          "outcome": "Supported; access varies",
+          "finding": "Downloaded official facilities page includes Phase 2 electrical system provided by Entergy. Another client gets 403; retain source as restricted/intermittent, not removed."
+        }
+      ],
+      "publishedUpdateReviews": [
+        {
+          "portId": "vinton",
+          "recordId": "vinton-fastsites-2026",
+          "type": "update",
+          "sourceId": "recent-fastsites-2026",
+          "url": "https://www.opportunitylouisiana.gov/news/louisiana-selects-19-fastsites-in-historic-state-investment",
+          "outcome": "Supported",
+          "finding": "LED March 3, 2026 primary release lists this site among first-round FastSites selections. Site-specific amounts follow later agreements; atlas does not infer award amount or completed works."
+        }
+      ]
+    },
+    {
+      "portId": "west-st-mary",
+      "name": "Port of West St. Mary",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 5,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 45
+        },
+        {
+          "sourceId": "summary-west-st-mary"
+        }
+      ],
+      "locationSourceId": "dock-0qeh",
+      "locationScope": "USACE facility 0QEH. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "west-calcasieu",
+      "name": "West Calcasieu Port",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 4,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 47
+        }
+      ],
+      "locationSourceId": "dock-0zdr",
+      "locationScope": "USACE facility 0ZDR. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "west-calcasieu",
+          "recordId": "west-calcasieu-energy-1",
+          "type": "energy",
+          "sourceId": "energy-west-cal",
+          "url": "https://buildingsandsites.com/swla/Property/Detail/16229/West-Cal-Port",
+          "outcome": "Supported",
+          "finding": "SWLA property 16229 lists Entergy. Property-specific scope retained."
+        }
+      ],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "central-louisiana",
+      "name": "Central Louisiana Regional Port",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 7,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 50
+        }
+      ],
+      "locationSourceId": "dock-0tcu",
+      "locationScope": "USACE facility 0TCU. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [],
+      "publishedUpdateReviews": [
+        {
+          "portId": "central-louisiana",
+          "recordId": "central-louisiana-fastsites-2026",
+          "type": "update",
+          "sourceId": "recent-fastsites-2026",
+          "url": "https://www.opportunitylouisiana.gov/news/louisiana-selects-19-fastsites-in-historic-state-investment",
+          "outcome": "Supported",
+          "finding": "LED March 3, 2026 primary release lists this site among first-round FastSites selections. Site-specific amounts follow later agreements; atlas does not infer award amount or completed works."
+        }
+      ]
+    },
+    {
+      "portId": "ouachita",
+      "name": "Greater Ouachita Port",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 1,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 52
+        }
+      ],
+      "locationSourceId": "census-ouachita",
+      "locationScope": "Approximate Census address-range location for the published contact address. Not a surveyed facility, entrance or verified current office. See the 2024 profile for the address.",
+      "energyRecordReviews": [],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "madison",
+      "name": "Madison Parish Port",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 7,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 54
+        }
+      ],
+      "locationSourceId": "dock-0xb0",
+      "locationScope": "USACE facility 0XB0. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "madison",
+          "recordId": "madison-energy-1",
+          "type": "energy",
+          "sourceId": "energy-madison",
+          "url": "https://madisonparishport.com/utility-providers",
+          "outcome": "Supported",
+          "finding": "Official utility-provider page explicitly states electrical services provided by Entergy of Louisiana. No capacity/use metric."
+        }
+      ],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "natchitoches",
+      "name": "Natchitoches Parish Port",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 3,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 56
+        }
+      ],
+      "locationSourceId": "dock-0rlk",
+      "locationScope": "USACE facility 0RLK. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "natchitoches",
+          "recordId": "natchitoches-energy-1",
+          "type": "energy",
+          "sourceId": "energy-natchitoches",
+          "url": "https://louisianasiteselection.com/led/Property/Detail/3363/Natchitoches-Parish-Port",
+          "outcome": "Supported",
+          "finding": "LED property 3363 names CLECO, Entergy or SWEPCO. Atlas correctly avoids exclusive port-wide supplier inference."
+        }
+      ],
+      "publishedUpdateReviews": [
+        {
+          "portId": "natchitoches",
+          "recordId": "natchitoches-fastsites-2026",
+          "type": "update",
+          "sourceId": "recent-fastsites-2026",
+          "url": "https://www.opportunitylouisiana.gov/news/louisiana-selects-19-fastsites-in-historic-state-investment",
+          "outcome": "Supported",
+          "finding": "LED March 3, 2026 primary release lists this site among first-round FastSites selections. Site-specific amounts follow later agreements; atlas does not infer award amount or completed works."
+        }
+      ]
+    },
+    {
+      "portId": "avoyelles",
+      "name": "Port of Avoyelles",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 2,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 58
+        }
+      ],
+      "locationSourceId": "dock-10q0",
+      "locationScope": "USACE facility 10Q0. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "avoyelles",
+          "recordId": "avoyelles-energy-1",
+          "type": "energy",
+          "sourceId": "energy-avoyelles",
+          "url": "https://lacentralsites.com/industrial-site/avoyelles-parish-port-industrial-site",
+          "outcome": "Supported",
+          "finding": "Louisiana Central industrial-site listing names CLECO and 34.5 kV line; atlas correctly distinguishes line voltage from capacity."
+        }
+      ],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "caddo-bossier",
+      "name": "Port of Caddo-Bossier",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 5,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 60
+        },
+        {
+          "sourceId": "summary-caddo-bossier"
+        }
+      ],
+      "locationSourceId": "dock-0te3",
+      "locationScope": "USACE facility 0TE3. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "caddo-bossier",
+          "recordId": "caddo-bossier-energy-1",
+          "type": "energy",
+          "sourceId": "energy-caddo",
+          "url": "https://portcb.com/wp-content/uploads/2024/12/Minutes-of-November-18-2024-Special-Board-Meeting-Budget.-WEBSITE.pdf",
+          "outcome": "Supported",
+          "finding": "November 18, 2024 board minutes PDF page 3 state roughly 50 MW then available and study potential of 265 MW. Atlas keeps potential separate from operating capacity or demand."
+        }
+      ],
+      "publishedUpdateReviews": [
+        {
+          "portId": "caddo-bossier",
+          "recordId": "caddo-bossier-fastsites-2026",
+          "type": "update",
+          "sourceId": "recent-fastsites-2026",
+          "url": "https://www.opportunitylouisiana.gov/news/louisiana-selects-19-fastsites-in-historic-state-investment",
+          "outcome": "Supported",
+          "finding": "LED March 3, 2026 primary release lists this site among first-round FastSites selections. Site-specific amounts follow later agreements; atlas does not infer award amount or completed works."
+        }
+      ]
+    },
+    {
+      "portId": "columbia",
+      "name": "Port of Columbia",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 3,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 62
+        }
+      ],
+      "locationSourceId": "map-columbia",
+      "locationScope": "Reference published in the official website map. Contact maps can represent administration or a map center rather than a berth; not suitable for navigation.",
+      "energyRecordReviews": [
+        {
+          "portId": "columbia",
+          "recordId": "columbia-energy-1",
+          "type": "energy",
+          "sourceId": "energy-columbia",
+          "url": "https://strategicbiofuels.com/projects/",
+          "outcome": "Supported",
+          "finding": "Developer project page describes 100 MW wood-fired design, approximately 25 MW internal load and 75 MW grid delivery; atlas labels proposed, not operational."
+        },
+        {
+          "portId": "columbia",
+          "recordId": "columbia-site-utility",
+          "type": "energy",
+          "sourceId": "led-columbia-2026",
+          "url": "https://louisianasiteselection.com/led/property/detail/2886/port-of-columbia",
+          "outcome": "Refresh date",
+          "finding": "LED property 2886 names Entergy. Saved current page updated September 3, 2026, replacing May 2. Generation project and utility listing remain separate."
+        }
+      ],
+      "publishedUpdateReviews": [
+        {
+          "portId": "columbia",
+          "recordId": "columbia-fastsites-2026",
+          "type": "update",
+          "sourceId": "recent-fastsites-2026",
+          "url": "https://www.opportunitylouisiana.gov/news/louisiana-selects-19-fastsites-in-historic-state-investment",
+          "outcome": "Supported",
+          "finding": "LED March 3, 2026 primary release lists this site among first-round FastSites selections. Site-specific amounts follow later agreements; atlas does not infer award amount or completed works."
+        }
+      ]
+    },
+    {
+      "portId": "krotz-springs",
+      "name": "Port of Krotz Springs",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 2,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 64
+        }
+      ],
+      "locationSourceId": "map-krotz-springs",
+      "locationScope": "Reference published in the official website map. Contact maps can represent administration or a map center rather than a berth; not suitable for navigation.",
+      "energyRecordReviews": [
+        {
+          "portId": "krotz-springs",
+          "recordId": "krotz-springs-energy-1",
+          "type": "energy",
+          "sourceId": "energy-krotz",
+          "url": "https://portofkrotzsprings.com/about/",
+          "outcome": "Supported",
+          "finding": "Official about page lists onsite electricity; no utility name or electrical rating is stated."
+        },
+        {
+          "portId": "krotz-springs",
+          "recordId": "krotz-proposed-slemco",
+          "type": "energy",
+          "sourceId": "slemco-krotz-sites",
+          "url": "https://slemco.com/commercial/builders-developers/commercial-real-estate/",
+          "outcome": "Supported; clarify title",
+          "finding": "SLEMCO primary page identifies 100-acre and 125-acre undeveloped port-owned sites north/south of existing port. It explicitly says service will be available. Detail/status are correct; title should say prospective availability for clarity."
+        }
+      ],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "lake-providence",
+      "name": "Port of Lake Providence",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 4,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 66
+        }
+      ],
+      "locationSourceId": "dock-0xaf",
+      "locationScope": "USACE facility 0XAF. Representative facility in the port area, not the full port boundary or a driving entrance. Facility name follows the federal inventory; operator names may be historical.",
+      "energyRecordReviews": [
+        {
+          "portId": "lake-providence",
+          "recordId": "lake-providence-energy-1",
+          "type": "energy",
+          "sourceId": "energy-providence",
+          "url": "https://louisianasiteselection.com/led/Property/Detail/22226/Lake-Providence-Port-Commission",
+          "outcome": "Supported; access varies",
+          "finding": "Expanded LED property 22226 page lists Entergy. Some requests return bot/challenge text despite HTTP 200. This is a separate advertised commission property, not terminal-wide supply."
+        }
+      ],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "vidalia",
+      "name": "Port of Vidalia",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 1,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 68
+        },
+        {
+          "sourceId": "usace-vidalia"
+        }
+      ],
+      "locationSourceId": "usace-vidalia",
+      "locationScope": "USACE public-notice coordinate for the port project area. Not an entrance or confirmation that proposed work is complete.",
+      "energyRecordReviews": [],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "red-river",
+      "name": "Red River Parish Port",
+      "historicalFactsReconciled": 10,
+      "serviceLabelsReconciled": 2,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 70
+        },
+        {
+          "sourceId": "red-river-site"
+        }
+      ],
+      "locationSourceId": "red-river-site",
+      "locationScope": "Published property reference from the environmental assessment. Represents the industrial site rather than the river berth.",
+      "energyRecordReviews": [
+        {
+          "portId": "red-river",
+          "recordId": "red-river-energy-1",
+          "type": "energy",
+          "sourceId": "energy-red-river",
+          "url": "https://buildingsandsites.com/nlep/Property/Detail/21369/Red-River-Parish-Port-Site",
+          "outcome": "Supported",
+          "finding": "NLEP property 21369 lists AEP SWEPCO. Specific property scope retained."
+        }
+      ],
+      "publishedUpdateReviews": []
+    },
+    {
+      "portId": "tensas",
+      "name": "Tensas Parish Port",
+      "historicalFactsReconciled": 5,
+      "serviceLabelsReconciled": 1,
+      "summarySources": [
+        {
+          "sourceId": "lla-2024",
+          "page": 72
+        },
+        {
+          "sourceId": "usace-tensas"
+        }
+      ],
+      "locationSourceId": "usace-tensas",
+      "locationScope": "Project reference point in the July 2025 public notice. Do not interpret this marker as an operating terminal or approved construction.",
+      "energyRecordReviews": [],
+      "publishedUpdateReviews": []
+    }
+  ],
+  "historicalURLChecks": [
+    {
+      "url": "https://app.lla.la.gov/publicreports.nsf/0/8821f5584897978386258ab50064a7f9/%24file/00003bbab.pdf",
+      "ids": [
+        "lla-2024"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://app.lla.la.gov/publicreports.nsf/0/8821f5584897978386258ab50064a7f9/%24file/00003bbab.pdf"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/ArcGIS/rest/services/Principal_Ports/FeatureServer/0",
+      "ids": [
+        "usace-cargo-2023"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/ArcGIS/rest/services/Principal_Ports/FeatureServer/0"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Port_Statistical_Area/FeatureServer/0",
+      "ids": [
+        "usace-areas"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Port_Statistical_Area/FeatureServer/0"
+    },
+    {
+      "url": "https://geospatial-usace.opendata.arcgis.com/datasets/23d91bd988ac4fc9943128965bddfa37_0/explore",
+      "ids": [
+        "usace-docks"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://geospatial-usace.opendata.arcgis.com/datasets/23d91bd988ac4fc9943128965bddfa37_0/explore"
+    },
+    {
+      "url": "https://dotd.la.gov/about/office-of-multimodal-commerce/ports-and-waterways/ports/",
+      "ids": [
+        "dotd-roster"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://dotd.la.gov/about/office-of-multimodal-commerce/ports-and-waterways/ports/"
+    },
+    {
+      "url": "https://www.ndbc.noaa.gov/station_page.php?station=lopl1",
+      "ids": [
+        "noaa-loop"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.ndbc.noaa.gov/station_page.php?station=lopl1"
+    },
+    {
+      "url": "https://www.mvk.usace.army.mil/Portals/58/docs/regulatory/publicnotices/Public%20Notice%20MVK-2024-397-Signed.pdf?ver=PBGfWYw4HqgJAI5nWa-new%3D%3D",
+      "ids": [
+        "usace-tensas"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 403
+    },
+    {
+      "url": "https://www.mvk.usace.army.mil/Portals/58/docs/regulatory/publicnotices/Public%20Notice%20MVK-2008-1006%20-kwh.pdf?ver=P_9AsEmAdCafmHkyNQGjLw%3D%3D",
+      "ids": [
+        "usace-vidalia"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 403
+    },
+    {
+      "url": "https://louisianasiteselection.com/api/Upload/FileDownload?guid=ebb5086e967c43caa3d77c4d8d5a4e1e",
+      "ids": [
+        "red-river-site"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/api/Upload/FileDownload?guid=ebb5086e967c43caa3d77c4d8d5a4e1e"
+    },
+    {
+      "url": "https://images1.showcase.com/d2/6pvyUGIxZ8r9cQqdlurHCSBT8RLIuHacnMFXNT3RJxM/document.pdf",
+      "ids": [
+        "vinton-led"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 403
+    },
+    {
+      "url": "https://www.louisianagatewayport.com/",
+      "ids": [
+        "gateway-name",
+        "plaquemines-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.louisianagatewayport.com/"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270YVU%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0yvu"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270YVU%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SPY%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0spy"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SPY%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SHR%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0shr"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SHR%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XA3%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0xa3"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XA3%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270U1Z%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0u1z"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270U1Z%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SFY%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0sfy"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SFY%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270X2V%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0x2v"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270X2V%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZW8%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0zw8"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZW8%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270WMP%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0wmp"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270WMP%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZNE%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0zne"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZNE%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZY1%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0zy1"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZY1%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270YNX%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0ynx"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270YNX%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270QEH%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0qeh"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270QEH%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZDR%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0zdr"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZDR%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270TCU%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0tcu"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270TCU%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XB0%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0xb0"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XB0%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270RLK%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0rlk"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270RLK%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%2710Q0%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-10q0"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%2710Q0%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270TE3%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0te3"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270TE3%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XAF%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "ids": [
+        "dock-0xaf"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XAF%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson"
+    },
+    {
+      "url": "https://portnola.com/info/directions",
+      "ids": [
+        "map-new-orleans"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portnola.com/info/directions"
+    },
+    {
+      "url": "https://portofdelcambre.com/contact-us/",
+      "ids": [
+        "map-delcambre"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portofdelcambre.com/contact-us/"
+    },
+    {
+      "url": "https://grandisleport.com/contact-us/",
+      "ids": [
+        "map-grand-isle"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://grandisleport.com/contact-us/"
+    },
+    {
+      "url": "https://www.portcolumbia.com/",
+      "ids": [
+        "map-columbia"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.portcolumbia.com/"
+    },
+    {
+      "url": "https://portofkrotzsprings.com/contact-us/",
+      "ids": [
+        "map-krotz-springs"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portofkrotzsprings.com/contact-us/"
+    },
+    {
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=180+Henry+Street%2C+Cameron%2C+LA+70631&benchmark=Public_AR_Current&format=json",
+      "ids": [
+        "census-cameron"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=180+Henry+Street%2C+Cameron%2C+LA+70631&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=101+Valley+Road%2C+West+Monroe%2C+LA+71292&benchmark=Public_AR_Current&format=json",
+      "ids": [
+        "census-ouachita"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=101+Valley+Road%2C+West+Monroe%2C+LA+71292&benchmark=Public_AR_Current&format=json"
+    },
+    {
+      "url": "https://www.entergy.com/news/entergy-louisiana-eco-launch-shore-power-project-reduce-emissions-for-gulf-coast-1729408408",
+      "ids": [
+        "energy-fourchon"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.entergy.com/news/entergy-louisiana-eco-launch-shore-power-project-reduce-emissions-for-gulf-coast-1729408408"
+    },
+    {
+      "url": "https://www.entergy.com/news/entergy-providing-power-crowley-vessels-at-port-lake-charles",
+      "ids": [
+        "energy-lake-charles"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.entergy.com/news/entergy-providing-power-crowley-vessels-at-port-lake-charles"
+    },
+    {
+      "url": "https://portnola.com/assets/pdf/Port-NOLAs-Green-Supply-Chain-Report-July-2022.pdf",
+      "ids": [
+        "energy-nola-solar"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portnola.com/assets/pdf/Port-NOLAs-Green-Supply-Chain-Report-July-2022.pdf"
+    },
+    {
+      "url": "https://portnola.com/info/news-media/press-releases/port-of-new-orleans-unveils-design-updates-to-the-louisiana-international-terminal-based-on-early-community-input",
+      "ids": [
+        "energy-nola-lit"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portnola.com/info/news-media/press-releases/port-of-new-orleans-unveils-design-updates-to-the-louisiana-international-terminal-based-on-early-community-input"
+    },
+    {
+      "url": "https://chouest.com/downloads/2024-eco-sustainability-report.pdf",
+      "ids": [
+        "energy-eco"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 404
+    },
+    {
+      "url": "https://portcb.com/wp-content/uploads/2024/12/Minutes-of-November-18-2024-Special-Board-Meeting-Budget.-WEBSITE.pdf",
+      "ids": [
+        "energy-caddo"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portcb.com/wp-content/uploads/2024/12/Minutes-of-November-18-2024-Special-Board-Meeting-Budget.-WEBSITE.pdf"
+    },
+    {
+      "url": "https://lacentralsites.com/industrial-site/avoyelles-parish-port-industrial-site",
+      "ids": [
+        "energy-avoyelles"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://lacentralsites.com/industrial-site/avoyelles-parish-port-industrial-site"
+    },
+    {
+      "url": "https://louisianasiteselection.com/led/Property/Detail/2816/Port-of-Terrebonne-44-acres",
+      "ids": [
+        "energy-terrebonne"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/led/Property/Detail/2816/Port-of-Terrebonne-44-acres"
+    },
+    {
+      "url": "https://portofvinton.com/real-estate-services/facilities/",
+      "ids": [
+        "energy-vinton"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portofvinton.com/real-estate-services/facilities/"
+    },
+    {
+      "url": "https://buildingsandsites.com/nlep/Property/Detail/21369/Red-River-Parish-Port-Site",
+      "ids": [
+        "energy-red-river"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://buildingsandsites.com/nlep/Property/Detail/21369/Red-River-Parish-Port-Site"
+    },
+    {
+      "url": "https://buildingsandsites.com/swla/Property/Detail/16229/West-Cal-Port",
+      "ids": [
+        "energy-west-cal"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://buildingsandsites.com/swla/Property/Detail/16229/West-Cal-Port"
+    },
+    {
+      "url": "https://louisianasiteselection.com/led/Property/Detail/22226/Lake-Providence-Port-Commission",
+      "ids": [
+        "energy-providence"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/led/Property/Detail/22226/Lake-Providence-Port-Commission"
+    },
+    {
+      "url": "https://louisianasiteselection.com/led/Property/Detail/2698/Port-Manchac-Industrial-Site",
+      "ids": [
+        "energy-manchac"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/led/Property/Detail/2698/Port-Manchac-Industrial-Site"
+    },
+    {
+      "url": "https://louisianasiteselection.com/led/Property/Detail/3363/Natchitoches-Parish-Port",
+      "ids": [
+        "energy-natchitoches"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/led/Property/Detail/3363/Natchitoches-Parish-Port"
+    },
+    {
+      "url": "https://portofdelcambre.com/marina/",
+      "ids": [
+        "energy-delcambre"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portofdelcambre.com/marina/"
+    },
+    {
+      "url": "https://www.portofiberia.com/overview/",
+      "ids": [
+        "energy-iberia"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.portofiberia.com/overview/"
+    },
+    {
+      "url": "https://portofkrotzsprings.com/about/",
+      "ids": [
+        "energy-krotz"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portofkrotzsprings.com/about/"
+    },
+    {
+      "url": "https://strategicbiofuels.com/projects/",
+      "ids": [
+        "energy-columbia"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://strategicbiofuels.com/projects/"
+    },
+    {
+      "url": "https://madisonparishport.com/utility-providers",
+      "ids": [
+        "energy-madison"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://madisonparishport.com/utility-providers"
+    },
+    {
+      "url": "https://louisianasiteselection.com/led/Property/Detail/21937/Cameron-Parish-Port-Harbor-Terminal-District",
+      "ids": [
+        "energy-cameron-site"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/led/Property/Detail/21937/Cameron-Parish-Port-Harbor-Terminal-District"
+    },
+    {
+      "url": "https://portsl.com/wp-content/uploads/2025/03/2025_02_19_PortSL_Regular_Cmsn_Meeting_Minutes.pdf",
+      "ids": [
+        "energy-south-la-grid"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portsl.com/wp-content/uploads/2025/03/2025_02_19_PortSL_Regular_Cmsn_Meeting_Minutes.pdf"
+    },
+    {
+      "url": "https://static1.squarespace.com/static/533972c5e4b0b7f04d8f67a2/t/637c06d6f9dcb351e04c6d47/1669072598351/09-22-22%2BCommission%2BMeeting%2BMinutes.pdf",
+      "ids": [
+        "energy-baton-gron"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://static1.squarespace.com/static/533972c5e4b0b7f04d8f67a2/t/637c06d6f9dcb351e04c6d47/1669072598351/09-22-22%2BCommission%2BMeeting%2BMinutes.pdf"
+    },
+    {
+      "url": "https://goentergy.com/preparing-the-way-entergys-work-on-site-prep-reaps-results-for-companies-and-communities",
+      "ids": [
+        "energy-nola-grid"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://goentergy.com/preparing-the-way-entergys-work-on-site-prep-reaps-results-for-companies-and-communities"
+    },
+    {
+      "url": "https://digitallumens.com/our-world/success/nocs/",
+      "ids": [
+        "energy-nola-lighting"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 410
+    },
+    {
+      "url": "https://portsl.com/wp-content/uploads/2026/02/2025_FourthQuarter_PortSL_Tonnage_Stats.pdf",
+      "ids": [
+        "recent-south-2025"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portsl.com/wp-content/uploads/2026/02/2025_FourthQuarter_PortSL_Tonnage_Stats.pdf"
+    },
+    {
+      "url": "https://portsl.com/wp-content/uploads/2026/05/2026_FirstQuarter_PortSL_Tonnage_Stats.pdf",
+      "ids": [
+        "recent-south-2026"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portsl.com/wp-content/uploads/2026/05/2026_FirstQuarter_PortSL_Tonnage_Stats.pdf"
+    },
+    {
+      "url": "https://portnola.com/info/news-media/press-releases/port-of-new-orleans-cargo-volumes-continue-to-climb-in-first-half-of-2025-driven-by-latin-american-trade-growth-and-improved-reliability",
+      "ids": [
+        "recent-nola-container-2025"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portnola.com/info/news-media/press-releases/port-of-new-orleans-cargo-volumes-continue-to-climb-in-first-half-of-2025-driven-by-latin-american-trade-growth-and-improved-reliability"
+    },
+    {
+      "url": "https://portnola.com/assets/pdf/FY2026-compressed.pdf",
+      "ids": [
+        "recent-nola-budget-2026"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portnola.com/assets/pdf/FY2026-compressed.pdf"
+    },
+    {
+      "url": "https://www.opportunitylouisiana.gov/news/louisiana-selects-19-fastsites-in-historic-state-investment",
+      "ids": [
+        "recent-fastsites-2026"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.opportunitylouisiana.gov/news/louisiana-selects-19-fastsites-in-historic-state-investment"
+    },
+    {
+      "url": "https://grandisleport.com/2025-state-of-the-port/",
+      "ids": [
+        "recent-grand-isle-2025"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://grandisleport.com/2025-state-of-the-port/"
+    },
+    {
+      "url": "https://grandisleport.com/grand-isle-port-commission-awarded-historic-2-7-million-hud-grant-for-port-infrastructure-improvements/",
+      "ids": [
+        "recent-grand-isle-grant-2026"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://grandisleport.com/grand-isle-port-commission-awarded-historic-2-7-million-hud-grant-for-port-infrastructure-improvements/"
+    },
+    {
+      "url": "https://www.portofiberia.com/2026/05/01/cajun-industries-yard-completed/",
+      "ids": [
+        "recent-iberia-yard-2026"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.portofiberia.com/2026/05/01/cajun-industries-yard-completed/"
+    },
+    {
+      "url": "https://www.louisianagatewayport.com/blog/why-plaquemines-port-became-louisiana-gateway-port",
+      "ids": [
+        "recent-gateway-name-2026"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.louisianagatewayport.com/blog/why-plaquemines-port-became-louisiana-gateway-port"
+    },
+    {
+      "url": "https://portlc.com/news/louisianas-port-of-lake-charles-retains-top-10-u-s-ranking/",
+      "ids": [
+        "recent-lake-charles-loader-2025"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portlc.com/news/louisianas-port-of-lake-charles-retains-top-10-u-s-ranking/"
+    },
+    {
+      "url": "https://terrebonneport.com/led-certified-site-designation/",
+      "ids": [
+        "recent-terrebonne-certified-2025"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://terrebonneport.com/led-certified-site-designation/"
+    },
+    {
+      "url": "https://www.stbernardport.com/news/st-bernard-port-celebrates-dedication-of-chalmette-slip-rehabilitation-project",
+      "ids": [
+        "recent-st-bernard-slip-2025"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.stbernardport.com/news/st-bernard-port-celebrates-dedication-of-chalmette-slip-rehabilitation-project"
+    },
+    {
+      "url": "https://portofmc.com/annual-message-to-stakeholders-for-the-year-2025/",
+      "ids": [
+        "recent-morgan-city-2026"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portofmc.com/annual-message-to-stakeholders-for-the-year-2025/"
+    },
+    {
+      "url": "https://louisianasiteselection.com/led/Property/Detail/3444/Port-of-Iberia-NE-Site",
+      "ids": [
+        "led-iberia-ne-2026"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/led/Property/Detail/3444/Port-of-Iberia-NE-Site"
+    },
+    {
+      "url": "https://louisianasiteselection.com/Property/Detail/4438/Port-of-Vermilion",
+      "ids": [
+        "led-vermilion-2026"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/Property/Detail/4438/Port-of-Vermilion"
+    },
+    {
+      "url": "https://louisianasiteselection.com/led/property/detail/2886/port-of-columbia",
+      "ids": [
+        "led-columbia-2026"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://louisianasiteselection.com/led/property/detail/2886/port-of-columbia"
+    },
+    {
+      "url": "https://slemco.com/commercial/builders-developers/commercial-real-estate/",
+      "ids": [
+        "slemco-krotz-sites"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://slemco.com/commercial/builders-developers/commercial-real-estate/"
+    },
+    {
+      "url": "https://www.weather.gov/documentation/services-web-api",
+      "ids": [
+        "nws-api"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.weather.gov/documentation/services-web-api"
+    },
+    {
+      "url": "https://power.larc.nasa.gov/docs/methodology/data/sources/",
+      "ids": [
+        "nasa-power-climate"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 404
+    },
+    {
+      "url": "https://www.eia.gov/electricity/data/eia861/",
+      "ids": [
+        "eia-861-reliability"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.eia.gov/electricity/data/eia861/"
+    },
+    {
+      "url": "https://public-api.misoenergy.org/",
+      "ids": [
+        "miso-public-lmp"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://public-api.misoenergy.org/"
+    },
+    {
+      "url": "https://www.vesselfinder.com/embed",
+      "ids": [
+        "vesselfinder-embed"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.vesselfinder.com/embed"
+    },
+    {
+      "url": "https://cameronparishport.com/",
+      "ids": [
+        "cameron-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://cameronparishport.com/"
+    },
+    {
+      "url": "https://www.loopllc.com/",
+      "ids": [
+        "loop-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.loopllc.com/"
+    },
+    {
+      "url": "https://www.portfourchon.com/",
+      "ids": [
+        "fourchon-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.portfourchon.com/"
+    },
+    {
+      "url": "https://www.portgbr.com/",
+      "ids": [
+        "baton-rouge-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.portgbr.com/"
+    },
+    {
+      "url": "https://portlc.com/",
+      "ids": [
+        "lake-charles-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portlc.com/"
+    },
+    {
+      "url": "https://portnola.com/",
+      "ids": [
+        "new-orleans-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portnola.com/"
+    },
+    {
+      "url": "https://portsl.com/",
+      "ids": [
+        "south-louisiana-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portsl.com/"
+    },
+    {
+      "url": "https://www.stbernardport.com",
+      "ids": [
+        "st-bernard-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.stbernardport.com"
+    },
+    {
+      "url": "https://portmanchac.com/",
+      "ids": [
+        "manchac-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portmanchac.com/"
+    },
+    {
+      "url": "https://portofdelcambre.com/",
+      "ids": [
+        "delcambre-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portofdelcambre.com/"
+    },
+    {
+      "url": "https://grandisleport.com/",
+      "ids": [
+        "grand-isle-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://grandisleport.com/"
+    },
+    {
+      "url": "https://www.portofiberia.com",
+      "ids": [
+        "iberia-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.portofiberia.com"
+    },
+    {
+      "url": "https://portofmc.com/",
+      "ids": [
+        "morgan-city-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portofmc.com/"
+    },
+    {
+      "url": "https://terrebonneport.com/",
+      "ids": [
+        "terrebonne-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://terrebonneport.com/"
+    },
+    {
+      "url": "https://abbevilleharbor.com",
+      "ids": [
+        "vermilion-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://abbevilleharbor.com"
+    },
+    {
+      "url": "https://portofvinton.com",
+      "ids": [
+        "vinton-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portofvinton.com"
+    },
+    {
+      "url": "https://www.portofwsm.com",
+      "ids": [
+        "west-st-mary-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.portofwsm.com"
+    },
+    {
+      "url": "https://westcalport.com/",
+      "ids": [
+        "west-calcasieu-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://westcalport.com/"
+    },
+    {
+      "url": "https://clrport.com/",
+      "ids": [
+        "central-louisiana-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://clrport.com/"
+    },
+    {
+      "url": "https://madisonparishport.com",
+      "ids": [
+        "madison-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://madisonparishport.com"
+    },
+    {
+      "url": "https://www.natchitochesparishport.com",
+      "ids": [
+        "natchitoches-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.natchitochesparishport.com"
+    },
+    {
+      "url": "https://portcb.com/",
+      "ids": [
+        "caddo-bossier-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portcb.com/"
+    },
+    {
+      "url": "https://www.portcolumbia.com",
+      "ids": [
+        "columbia-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.portcolumbia.com"
+    },
+    {
+      "url": "https://portofkrotzsprings.com/",
+      "ids": [
+        "krotz-springs-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://portofkrotzsprings.com/"
+    },
+    {
+      "url": "https://www.cityofvidaliala.com/port-of-vidalia",
+      "ids": [
+        "vidalia-website"
+      ],
+      "checked": "2026-10-29",
+      "check": "HTTP retrieval only; does not validate the factual claim",
+      "status": 200,
+      "finalUrl": "https://www.cityofvidaliala.com/port-of-vidalia"
+    }
+  ],
+  "urlCheckSummary": {
+    "200": 103,
+    "403": 3,
+    "404": 2,
+    "410": 1
+  },
+  "retainedSourceAvailability": [
+    {
+      "sourceId": "energy-eco",
+      "status": "original-unavailable",
+      "retrieval": "Retained original PDF supports historical claim; live URL 404; no verified replacement found.",
+      "sha256": "a2908149609bce95722271da1d0422c5c528cc41ee37b5bf52557ae2603a5fa2"
+    },
+    {
+      "sourceId": "energy-nola-lighting",
+      "status": "original-unavailable",
+      "retrieval": "Primary search-indexed page supports historical vendor claim; direct URL 410/403; no verified replacement found."
+    },
+    {
+      "sourceId": "energy-vinton",
+      "status": "access-varies",
+      "retrieval": "Actual official text retrieved in child direct fetch despite 403 in root check."
+    },
+    {
+      "sourceId": "energy-providence",
+      "status": "access-varies",
+      "retrieval": "Expanded primary listing retrieved via web; direct 200 returned challenge page."
+    }
+  ],
+  "sourceEvidenceHashes": [
+    {
+      "name": "lla-2024",
+      "url": "https://app.lla.la.gov/publicreports.nsf/0/8821f5584897978386258ab50064a7f9/%24file/00003bbab.pdf",
+      "status": 200,
+      "sha256": "024c68f20527f39d13564222013bd2b54dfa1b59cf4e7225c115b07ea05e348a"
+    },
+    {
+      "name": "dock-0yvu",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270YVU%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "b0062ecc6da9f8a8aa228e922a89802b3f8e77e598362cb2f6a3ae985aacd376"
+    },
+    {
+      "name": "dock-0spy",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SPY%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "40b204bdc8617686fa186be8bb51c3a2df00efc188dd81fb78f6c539d2f73e33"
+    },
+    {
+      "name": "dock-0shr",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SHR%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "043114ef0d22029e0d7258b2272ddb1dc0fd69fcd9e7bd235e261fcea23caca9"
+    },
+    {
+      "name": "dock-0xa3",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XA3%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "01070ce25c2e0f50d3e840202d2c5f47ee649fe0070dc27fb6ea29e53459a5ee"
+    },
+    {
+      "name": "dock-0u1z",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270U1Z%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "d31b09945aa29d9b127998472763f3395f6df99ce8e2682879ead35d58c47f5f"
+    },
+    {
+      "name": "dock-0sfy",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270SFY%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "1dbb87ea8b988b21f5420936e45efef8968bfed3d0dee0609f90f218a8cb5c57"
+    },
+    {
+      "name": "dock-0x2v",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270X2V%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "c5c06ae0605ed07085d70a76945e4dd5b7425d3e031c0991d8d71d58173b2318"
+    },
+    {
+      "name": "dock-0zw8",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZW8%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "0d456e396810543b5c683bba9f7b60bd62942352599929137a935d3943ac9d8a"
+    },
+    {
+      "name": "dock-0wmp",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270WMP%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "b504a66c2b89fdb7ee3ce66bd8c5ce5efa3a486af179d4a883c4fe58347cce74"
+    },
+    {
+      "name": "dock-0zne",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZNE%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "1c7c6fb28c6d696ff77fde6118691e7f9d62a16f080e8aa49f3df0482699926e"
+    },
+    {
+      "name": "dock-0zy1",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZY1%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "e5af04cc3547421ce1f108b75f8fb0c3f93b299931636bfecfc1522d0567cdd8"
+    },
+    {
+      "name": "dock-0ynx",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270YNX%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "b5a49c47cdbde2cd9857f5c6269c6098f4ccbc7290d01fd0991107cf283d0a89"
+    },
+    {
+      "name": "dock-0qeh",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270QEH%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "c24ca0c5ae67b31919e67d25760724a9e4a09d1400549a5ac5871b53d3ce0eee"
+    },
+    {
+      "name": "dock-0zdr",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270ZDR%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "7355fca326d3fd07d58e9c4c2643238edc826facb5532fd885177a41b07af619"
+    },
+    {
+      "name": "dock-0tcu",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270TCU%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "8ee3af5e82625b9f4a0e71dfacc7ca8afebcde9adb92fcc1e184e275a9a153d3"
+    },
+    {
+      "name": "dock-0xb0",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XB0%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "5e5d1b3f94d1b2e1be1afbe7b5dc417faf70f8589134536c1ec6ea0fbe88a02e"
+    },
+    {
+      "name": "dock-0rlk",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270RLK%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "cd4577ad5b0ac0c9e6d594006666ffc06d5d6868d7b366d3b864aa2a65ff7ce2"
+    },
+    {
+      "name": "dock-10q0",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%2710Q0%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "4a96c904a969efd05e27d5472ae673496a810e0b2dfb00673d13bf044812facc"
+    },
+    {
+      "name": "dock-0te3",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270TE3%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "f74fe0e53ad3746c2cde68ead25fc093d75e176934b52de448848b054369397e"
+    },
+    {
+      "name": "dock-0xaf",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Docks/FeatureServer/0/query?where=NAV_UNIT_ID%3D%270XAF%27&outFields=%2A&returnGeometry=true&outSR=4326&f=pjson",
+      "status": 200,
+      "sha256": "c8c641557026499999f215d8c3da004cfdec46f43230bfb7cedaf9f4f15addbe"
+    },
+    {
+      "name": "principal-current",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/ArcGIS/rest/services/Principal_Ports/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=false&f=pjson",
+      "status": 200,
+      "sha256": "eedeb29b4a98f17a174983a50bbbabf78af1ec00b9b9728311ca5730daa15516"
+    },
+    {
+      "name": "areas-current",
+      "url": "https://services7.arcgis.com/n1YM8pTrFmm7L4hs/arcgis/rest/services/Port_Statistical_Area/FeatureServer/0/query?where=1%3D1&outFields=*&returnGeometry=true&outSR=4326&f=geojson",
+      "status": 200,
+      "sha256": "c680d36f9b21b6409054410865f470c54eef4f98cb3b07c3ff3dc1c7feb84c54"
+    },
+    {
+      "name": "census-cameron",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=180+Henry+Street%2C+Cameron%2C+LA+70631&benchmark=Public_AR_Current&format=json",
+      "status": 200,
+      "sha256": "384de7dda402a8026da1288237e839945064e7e85fb2fcb824ea867cce64968a"
+    },
+    {
+      "name": "noaa-loop",
+      "url": "https://www.ndbc.noaa.gov/station_page.php?station=lopl1",
+      "status": 200,
+      "sha256": "f1857232be71605fd0e9de1184a4e2fa73366e714b8e1f40344568b5a5eb1622"
+    },
+    {
+      "name": "map-new-orleans",
+      "url": "https://portnola.com/info/directions",
+      "status": 200,
+      "sha256": "a7f1b1b384e8662f4a0448a248449a72f9004b4b6ac85313fe863ce6ad332fdb"
+    },
+    {
+      "name": "map-delcambre",
+      "url": "https://portofdelcambre.com/contact-us/",
+      "status": 200,
+      "sha256": "c38e251198cd5eafe344d97b3b01ae263aadcd72ae147c6364c63cba3ccbc8b1"
+    },
+    {
+      "name": "map-grand-isle",
+      "url": "https://grandisleport.com/contact-us/",
+      "status": 200,
+      "sha256": "6523d5758fc8ed0076baa809cacbdae73bf9f6757be85bd3595c17ab198b272d"
+    },
+    {
+      "name": "vinton-led",
+      "url": "https://images1.showcase.com/d2/6pvyUGIxZ8r9cQqdlurHCSBT8RLIuHacnMFXNT3RJxM/document.pdf"
+    },
+    {
+      "name": "census-ouachita",
+      "url": "https://geocoding.geo.census.gov/geocoder/locations/onelineaddress?address=101+Valley+Road%2C+West+Monroe%2C+LA+71292&benchmark=Public_AR_Current&format=json",
+      "status": 200,
+      "sha256": "10e46a2904a4f875c3b685a02572af4e93f396788bc3b4481e81058332aab30e"
+    },
+    {
+      "name": "map-columbia",
+      "url": "https://www.portcolumbia.com/",
+      "status": 200,
+      "sha256": "8838c9e3de63255cdba81d90508042049760cd67a5cabce1111f73d9cdb38324"
+    },
+    {
+      "name": "map-krotz-springs",
+      "url": "https://portofkrotzsprings.com/contact-us/",
+      "status": 200,
+      "sha256": "933c112a2f03a9989d811aa17083eccd80a6f38c9bf24d303a30c1ef30902689"
+    },
+    {
+      "name": "usace-vidalia",
+      "url": "https://www.mvk.usace.army.mil/Portals/58/docs/regulatory/publicnotices/Public%20Notice%20MVK-2008-1006%20-kwh.pdf?ver=P_9AsEmAdCafmHkyNQGjLw%3D%3D"
+    },
+    {
+      "name": "red-river-site",
+      "url": "https://louisianasiteselection.com/api/Upload/FileDownload?guid=ebb5086e967c43caa3d77c4d8d5a4e1e",
+      "status": 200,
+      "sha256": "1c98f0a097448d8945a07bd2063c0b8b0f4d0fa1aae21177ccdde4f21433082d"
+    },
+    {
+      "name": "usace-tensas",
+      "url": "https://www.mvk.usace.army.mil/Portals/58/docs/regulatory/publicnotices/Public%20Notice%20MVK-2024-397-Signed.pdf?ver=PBGfWYw4HqgJAI5nWa-new%3D%3D"
+    },
+    {
+      "name": "summary-st-bernard",
+      "url": "https://www.stbernardport.com/our-facilities",
+      "status": 200,
+      "sha256": "77d49abd15eb215d6aed0b61c307647d9bbcbe7e9ed93f917efd6d50e006234e"
+    },
+    {
+      "name": "summary-delcambre",
+      "url": "https://portofdelcambre.com/faqs/",
+      "status": 200,
+      "sha256": "b33b316d2d41b988ea30d9d851fceb56e5f1a7947f1742d4f35168c8dbe61e6e"
+    },
+    {
+      "name": "summary-west-st-mary",
+      "url": "https://www.portofwsm.com/about-pwsm/",
+      "status": 200,
+      "sha256": "e2f43a0ad6d99e4dc544cb2e03dd2b856bf788cb315f70dbf9671b8d2de20538"
+    },
+    {
+      "name": "summary-caddo-bossier",
+      "url": "https://portcb.com/roads/",
+      "status": 200,
+      "sha256": "548519ff472e3eed52ada650e3b97717b893764d8eb26a2857976740401fd647"
+    }
+  ],
+  "nasaReconciliation": [
+    {
+      "portId": "cameron",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.3239679&latitude=29.7983881&format=JSON&start=2001&end=2020",
+      "sha256": "823c819d46c7f0f2c6973238e621ed0ec951508b4a4cc48c5b8c8efd470689b3",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "loop",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.025&latitude=28.885&format=JSON&start=2001&end=2020",
+      "sha256": "bca0b84feb770a9a2f465497505a44a1ab4b0b07c41256334214d9055d81c4d3",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "fourchon",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.2125056&latitude=29.1447272&format=JSON&start=2001&end=2020",
+      "sha256": "c3902884df6290db6fbf1f1130e362ae6d986cb0204706b389fc58792a80083f",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "baton-rouge",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.2002159&latitude=30.4402865&format=JSON&start=2001&end=2020",
+      "sha256": "48b22a3a2b38fdea517fea029bb602797000369cf62cebdd74f62b08cdb906db",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "lake-charles",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.2840545&latitude=30.1072913&format=JSON&start=2001&end=2020",
+      "sha256": "d12e8e85c6b06d1d96107c24230b6d106e47ae7eb5dafab2fdddd8de3ea9dccf",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "new-orleans",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.0617318&latitude=29.9360795&format=JSON&start=2001&end=2020",
+      "sha256": "6b035d04d7fe6381054f4bc965584272bcd64f32e70c34f9ea89ca43c6904a4f",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "plaquemines",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-89.9819496&latitude=29.8538944&format=JSON&start=2001&end=2020",
+      "sha256": "42e639974a681803ed30270b65a6c19d8459beb318328b8760cef90c7933ae38",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "south-louisiana",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.5654468&latitude=30.0539004&format=JSON&start=2001&end=2020",
+      "sha256": "8641075c1ec9f7873af4f5828266884b40b692837d2661aef3a73be500da064b",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "st-bernard",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-89.9980446&latitude=29.9451334&format=JSON&start=2001&end=2020",
+      "sha256": "e62fc8430f2669d55c04b5eded00a3f10bc614de16c8fde410f3a429e4f5d5bd",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "manchac",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.4041727&latitude=30.3122275&format=JSON&start=2001&end=2020",
+      "sha256": "1c482d3759b41dec106d52c7be7b41db744643c19b5c5f812dc3361f6653901f",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "delcambre",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.9886082&latitude=29.9492933&format=JSON&start=2001&end=2020",
+      "sha256": "4bfbe1717bb01844a67c8af92eb24f2b7c8619fb5e1837b954ffacad93d7ece9",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "grand-isle",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.0058678&latitude=29.225848&format=JSON&start=2001&end=2020",
+      "sha256": "9cb4ddc70a936306167d78c3fb7cf1aea44b6071e1e4035294662078ffb89ba7",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "iberia",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.8377841&latitude=29.9247273&format=JSON&start=2001&end=2020",
+      "sha256": "76a87a68ee8be6870a09b4adfebf08037f8bc3d2ab1dfbc5494b32c1a6521d00",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "mermentau",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-92.5988953&latitude=30.1866724&format=JSON&start=2001&end=2020",
+      "sha256": "90892eeaefd33bcaae865b8da037136f1c28767a1dbdab8b70c366b13ce82612",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "morgan-city",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.2026569&latitude=29.6898763&format=JSON&start=2001&end=2020",
+      "sha256": "973d918a8c0c781234464ad2ff660aa68653e9bacd11d7860996e18ea63f8355",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "terrebonne",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-90.6966728&latitude=29.5691723&format=JSON&start=2001&end=2020",
+      "sha256": "42faca18d3c9aa92475329263b547c931cdaa0463320ab9ad58a999236dbc9fa",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "vermilion",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-92.1200062&latitude=29.8961163&format=JSON&start=2001&end=2020",
+      "sha256": "060f113899ef85242960937c5c8bbe56375e0115d6da7df277d91e0460056fba",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "vinton",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.560848&latitude=30.160991&format=JSON&start=2001&end=2020",
+      "sha256": "637ac084bf0f6893684ba20beee77c2eb7efd925863f6edec5509dde0f2f8961",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "west-st-mary",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.7567601&latitude=29.7725763&format=JSON&start=2001&end=2020",
+      "sha256": "7b8b5e6969da311cf7d0ff36b347918c83932b8d59214f3a70a002c87c88a606",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "west-calcasieu",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.3539065&latitude=30.0619203&format=JSON&start=2001&end=2020",
+      "sha256": "d1217e47dd78f838892275177188c49138566e07a47681cdec383496102bc877",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "central-louisiana",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-92.4616733&latitude=31.3394496&format=JSON&start=2001&end=2020",
+      "sha256": "fbef8afc4c41ea6b270b34af77f75c4878affe3f97bcb39de3fee08294923fa4",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "ouachita",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-92.1364051&latitude=32.4894958&format=JSON&start=2001&end=2020",
+      "sha256": "eaa549b5cfa9a4459ca745dce965ab1b1d4eb6a40d87f6d82f145ec835b4f967",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "madison",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.121921&latitude=32.4947289&format=JSON&start=2001&end=2020",
+      "sha256": "29bcbad4f7d107379407c4b941f320b480733a5f5ac4eeacb0de82eaf4a28c64",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "natchitoches",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.0838375&latitude=31.8253537&format=JSON&start=2001&end=2020",
+      "sha256": "975eaa229eef8533f8b0cd5b76053ef025d6fad422e8d104b0e0273009d0fdb8",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "avoyelles",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.8069661&latitude=30.9629036&format=JSON&start=2001&end=2020",
+      "sha256": "622a7f3635470ccdbe2b548e0c2bcaa7ff6b6dad9d9be80442980050889ab078",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "caddo-bossier",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.6245707&latitude=32.3573028&format=JSON&start=2001&end=2020",
+      "sha256": "dd80fed414564270000aed97050204258cb34397ad0222e6e3d1b7e84913b729",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "columbia",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-92.1022136&latitude=32.1847573&format=JSON&start=2001&end=2020",
+      "sha256": "8b1fa0b41325086096172a90e5dea66512c802a7d7f9ad6be36caf60e3787b5a",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "krotz-springs",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.7506356&latitude=30.5346707&format=JSON&start=2001&end=2020",
+      "sha256": "78c579f1eba5f4b57dd37e2e9ad45b063155ce523734177f21fe3789a332cac6",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "lake-providence",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.171159&latitude=32.754369&format=JSON&start=2001&end=2020",
+      "sha256": "452b5168a53d3f1bf7d33a44e3afe36f4492810c6fe307d8714e0094142b2d86",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "vidalia",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.482899&latitude=31.536789&format=JSON&start=2001&end=2020",
+      "sha256": "f1b6e137bef896f959f6fc4ad9c845468b81501ab1dfb5efc34e7687e7b7a64c",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "red-river",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-93.3406076&latitude=31.9585299&format=JSON&start=2001&end=2020",
+      "sha256": "cc2d0eefe2d0b9957479a038311705f0ec9bb57a36d4aac9199c85a88d6f57da",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    },
+    {
+      "portId": "tensas",
+      "matchedValues": 26,
+      "url": "https://power.larc.nasa.gov/api/temporal/climatology/point?parameters=ALLSKY_SFC_SW_DWN,WS50M&community=RE&longitude=-91.199043&latitude=31.937527&format=JSON&start=2001&end=2020",
+      "sha256": "f986216623eda4165918c73aecc43977f478a3fa6b77068b7c1f0d6775522cdd",
+      "period": "20-year Meteorological and Solar Monthly & Annual Climatologies (January 2001 - December 2020)"
+    }
+  ],
+  "eiaReconciliation": {
+    "workbook": "Reliability_2025.xlsx",
+    "sha256": "44384751553f4d6b17723331a8e68b03c166ad2e7a81b97659ae08d79fe91e45",
+    "release": "2025 final data; EIA release October 7, 2026",
+    "checked": "2026-10-29",
+    "rows": [
+      {
+        "utilityId": 1458,
+        "row": 52,
+        "standard": "Other",
+        "matchedCells": 4,
+        "missingCells": 0
+      },
+      {
+        "utilityId": 3265,
+        "row": 110,
+        "standard": "Other",
+        "matchedCells": 4,
+        "missingCells": 0
+      },
+      {
+        "utilityId": 5202,
+        "row": 210,
+        "standard": "IEEE",
+        "matchedCells": 4,
+        "missingCells": 0
+      },
+      {
+        "utilityId": 9096,
+        "row": 355,
+        "standard": "IEEE",
+        "matchedCells": 4,
+        "missingCells": 0
+      },
+      {
+        "utilityId": 9682,
+        "row": 385,
+        "standard": "Other",
+        "matchedCells": 4,
+        "missingCells": 0
+      },
+      {
+        "utilityId": 11241,
+        "row": 451,
+        "standard": "IEEE",
+        "matchedCells": 4,
+        "missingCells": 0
+      },
+      {
+        "utilityId": 13478,
+        "row": 557,
+        "standard": "IEEE",
+        "matchedCells": 4,
+        "missingCells": 0
+      },
+      {
+        "utilityId": 13783,
+        "row": 588,
+        "standard": "IEEE",
+        "matchedCells": 4,
+        "missingCells": 0
+      },
+      {
+        "utilityId": 14424,
+        "row": 635,
+        "standard": "Other",
+        "matchedCells": 4,
+        "missingCells": 2
+      },
+      {
+        "utilityId": 15175,
+        "row": 663,
+        "standard": "Other",
+        "matchedCells": 4,
+        "missingCells": 2
+      },
+      {
+        "utilityId": 16463,
+        "row": 718,
+        "standard": "IEEE",
+        "matchedCells": 4,
+        "missingCells": 2
+      },
+      {
+        "utilityId": 17565,
+        "row": 766,
+        "standard": "Other",
+        "matchedCells": 4,
+        "missingCells": 0
+      },
+      {
+        "utilityId": 17684,
+        "row": 779,
+        "standard": "Other",
+        "matchedCells": 4,
+        "missingCells": 0
+      },
+      {
+        "utilityId": 17698,
+        "row": 783,
+        "standard": "IEEE",
+        "matchedCells": 4,
+        "missingCells": 0
+      },
+      {
+        "utilityId": 21567,
+        "row": 930,
+        "standard": "IEEE",
+        "matchedCells": 4,
+        "missingCells": 0
+      }
+    ]
+  },
+  "validation": "See VALIDATION.md and release test report; deployment is not included."
+}
